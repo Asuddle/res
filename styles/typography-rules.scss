@@ -1,0 +1,122 @@
+$font-name: 'Montserrat', sans-serif;
+$font-1-name: 'Mistral';
+$normal: 400;
+$regular: 500;
+$bold: 700;
+$semibold: 600;
+
+@mixin heading-main {
+	font-family: $font-1-name !important;
+	font-style: normal !important;
+	font-weight: $normal !important;
+	font-size: 150px !important;
+	line-height: 0.9;
+}
+
+@mixin heading-higher {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $bold !important;
+	font-size: 113px !important;
+}
+
+@mixin heading-high {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $semibold !important;
+	font-size: 82px !important;
+}
+
+@mixin heading-basic {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $bold !important;
+	font-size: 99px !important;
+	line-height: 1;
+}
+
+@mixin heading-sub {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $semibold !important;
+	font-size: 58px !important;
+	letter-spacing: 12px;
+}
+
+@mixin module-heading {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $semibold !important;
+	font-size: 24px !important;
+	text-transform: uppercase !important;
+	letter-spacing: 3px;
+}
+
+@mixin module-main-heading {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $normal !important;
+	font-size: 44px !important;
+	line-height: 1.2;
+}
+@mixin caption-heading {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $bold !important;
+	font-size: 26px !important;
+}
+@mixin caption-sub-heading {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $bold !important;
+	font-size: 26px !important;
+	text-transform: uppercase !important;
+}
+@mixin body-medium {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $regular !important;
+	font-size: 18px !important;
+}
+
+@mixin body-medium-para {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $regular !important;
+	font-size: 14px !important;
+}
+
+@mixin button-bold {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $bold !important;
+	font-size: 44px !important;
+}
+
+@mixin body-bold {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $bold !important;
+	font-size: 26px !important;
+}
+
+@mixin body-medium-2 {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $regular !important;
+	font-size: 21px !important;
+}
+
+@mixin caption-high {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $regular !important;
+	font-size: 36px !important;
+}
+
+@mixin nav-link {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $regular !important;
+	font-size: 18px !important;
+}
