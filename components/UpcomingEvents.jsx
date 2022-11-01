@@ -20,19 +20,7 @@ export default function UpcomingEvents() {
 				/>
 				<Row className={styles.eventImage} data-aos='fade-up'>
 					{[1, 2, 3].map((item) => (
-						<Col
-							key={item}
-							className={styles.imageWrapper}
-							// style={
-							// 	selected !== 0
-							// 		? {
-							// 				maxWidth: item == selected ? '540px' : '380px',
-							// 		  }
-							// 		: {}
-							// }
-							// onMouseOver={() => setSelected(item)}
-							// onMouseLeave={() => setSelected(0)}
-						>
+						<Col key={item} className={styles.imageWrapper}>
 							<Image
 								src={`/service-${item}.jpg`}
 								layout='fill'

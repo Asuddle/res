@@ -7,6 +7,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Image from 'next/image';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import styles from '../styles/Home.module.scss';
 
@@ -16,34 +17,42 @@ function WhyZES() {
 			className={styles.whyZesWrapper}
 			data-aos='fade-right'
 			data-aos-delay='500'
-
-			// className='space-ptb bg-dark-half-md'
 		>
 			<div className='container'>
 				<div className='row mb-3 position-relative'>
 					<div className='col-sm-12 col-md-12 col-lg-4'>
 						<div className={styles.upperDivider}></div>
-						<p className={styles.heading}>Why ZES</p>
-						<p className={styles.subHeading}>
-							Zes <span>Events Management</span>
-						</p>
-						<br />
-						<p className={styles.description}>
-							corrupti dolore illum doloremque hic dignissimos explicabo?
-							Voluptates incidunt expedita hic. Lorem, ipsum dolor sit amet
-							consectetur adipisicing elit. Totam voluptatibus veniam impedit
-							officia obcaecati atque soluta eum magni? Dicta ab culpa nesciunt
-							at saepe pariatur dolorem cupiditate! Vitae, veritatis possimus!
-						</p>
-						<br />
-						<button className={styles.aboutZesButton}>About ZeS</button>
-						<br />
+						<div className={styles.dataWrapper}>
+							<p className={styles.heading}>Why ZES</p>
+							<p className={styles.subHeading}>
+								ZeS <span>Events Management</span>
+							</p>
+							<br />
+							<p className={styles.description}>
+								corrupti dolore illum doloremque hic dignissimos explicabo?
+								Voluptates incidunt expedita hic. Lorem, ipsum dolor sit amet
+								consectetur adipisicing elit. Totam voluptatibus veniam impedit
+								officia obcaecati atque soluta eum magni? Dicta ab culpa
+								nesciunt at saepe pariatur dolorem cupiditate! Vitae, veritatis
+								possimus!
+							</p>
+							<br />
+							<br />
+							<button className={styles.aboutZesButton}>ABOUT ZeS</button>
+							<br />
+						</div>
 					</div>
 					<div className='col-sm-12 col-md-12 col-lg-8'>
 						<div className='category category-grid-style-01'>
 							<div className='category-item col-sm-12 col-lg-4'>
 								<div className='category-icon'>
-									<FontAwesomeIcon icon={faHandshake} />
+									{/* <FontAwesomeIcon icon={faHandshake} /> */}
+									<Image
+										src='/components/icon1.png'
+										alt='friendly team'
+										width={53}
+										height={53}
+									/>
 									{/* <i className='fa-regular fa-handshake'></i> */}
 								</div>
 								<br />

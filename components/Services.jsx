@@ -53,42 +53,46 @@ export default function ServiceComponent() {
 			name: 'Service',
 			src: '/project/01.jpg',
 		},
-		{
-			name: 'Service',
-			src: '/project/01.jpg',
-		},
-		{
-			name: 'Service',
-			src: '/project/01.jpg',
-		},
-		{
-			name: 'Service',
-			src: '/project/01.jpg',
-		},
-		{
-			name: 'Service',
-			src: '/project/01.jpg',
-		},
-		{
-			name: 'Service',
-			src: '/project/01.jpg',
-		},
-		{
-			name: 'Service',
-			src: '/project/01.jpg',
-		},
-		{
-			name: 'Service',
-			src: '/project/01.jpg',
-		},
-		{
-			name: 'Service',
-			src: '/project/01.jpg',
-		},
+		// {
+		// 	name: 'Service',
+		// 	src: '/project/01.jpg',
+		// },
+		// {
+		// 	name: 'Service',
+		// 	src: '/project/01.jpg',
+		// },
+		// {
+		// 	name: 'Service',
+		// 	src: '/project/01.jpg',
+		// },
+		// {
+		// 	name: 'Service',
+		// 	src: '/project/01.jpg',
+		// },
+		// {
+		// 	name: 'Service',
+		// 	src: '/project/01.jpg',
+		// },
+		// {
+		// 	name: 'Service',
+		// 	src: '/project/01.jpg',
+		// },
+		// {
+		// 	name: 'Service',
+		// 	src: '/project/01.jpg',
+		// },
+		// {
+		// 	name: 'Service',
+		// 	src: '/project/01.jpg',
+		// },
 	];
 
 	return (
-		<div className={styles.serviceWrapper}>
+		<div
+			className={styles.serviceWrapper}
+			data-aos='fade-right'
+			data-aos-delay='500'
+		>
 			<br />
 			<br />
 			<br />
@@ -103,17 +107,17 @@ export default function ServiceComponent() {
 						<div key={idx}>
 							<div className={styles.imageContainer}>
 								<Image
-									className='img-fluid rounded'
-									src='/project/01.jpg'
+									className='img-fluid'
+									src={`/components/service${idx + 1}.JPG`}
 									alt=''
-									layout='responsive'
-									width='380'
-									height='450'
+									// layout='responsive'
+									width='292'
+									height='383'
 									// objectFit='contain'
 								/>
-								<a href='#' className={styles.serviceButton}>
-									Service 1
-								</a>
+								<button href='#' className={styles.serviceButton}>
+									Service 1<p>lorem picsum it is das</p>
+								</button>
 							</div>
 						</div>
 					))}

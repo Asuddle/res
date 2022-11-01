@@ -9,8 +9,6 @@ import styles from '../styles/Home.module.scss';
 // <-- import styles to be used
 
 function Example(args) {
-	const [isOpen, setIsOpen] = useState(false);
-
 	const navArr = [
 		{ name: 'Home', href: '/' },
 		{ name: 'About', href: '/about' },

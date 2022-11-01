@@ -63,28 +63,6 @@ export default function ProjectsComponent() {
 					</Col>
 				))}
 			</Row>
-			{/* <Container fluid> */}
-			{/* <Row noGutters>
-					<Col md={4}>
-						<Image alt='as' src='/service-1.jpg' height={400} width={400} />
-					</Col>
-					<Col md={4}>
-						<Image width={400} alt='as' height={400} src='/service-2.jpg' />
-					</Col>
-					<Col md={4}>
-						<Image width={400} alt='as' height={400} src='/service-3.jpg' />
-					</Col>
-					<Col md={4}>
-						<Image width={400} alt='as' height={400} src='/service-4.jpg' />
-					</Col>
-					<Col md={4}>
-						<Image width={400} alt='as' height={400} src='/service-5.jpg' />
-					</Col>
-					<Col md={4}>
-						<Image width={400} alt='as' height={400} src='/service-6.jpg' />
-					</Col>
-				</Row> */}
-			{/* </Container> */}
 		</div>
 	);
 }

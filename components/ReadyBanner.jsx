@@ -20,25 +20,28 @@ function ReadyBanner() {
 					/>
 					<Row
 						facts
-						my-5
-						// py-5
+						my-
 						bg-gradient
-						className='container facts py-5 '
-						// style='text-align: center;color: white !important;'
+						className='container facts justify-content-between '
+						style={{ padding: '48px 0px' }}
 					>
-						<Col md={9} sm={12}>
+						<Col md={9} sm={12} style={{ textAlign: 'left' }}>
 							<p className={styles.headerName}>
 								Join Zes <span>to get Promotion</span>{' '}
 							</p>
 
-							<p className={styles.caption}>
+							<p className={styles.captionPara}>
 								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
 								diam nonummy nibh.
 							</p>
 							<br />
 						</Col>
-						<Col md={3} sm={12}>
-							<button style={{ marginTop: '72px' }}>CLICK NOW!</button>
+						<Col
+							md={3}
+							sm={12}
+							style={{ textAlign: 'right', marginTop: '32px' }}
+						>
+							<button>CLICK NOW!</button>
 						</Col>
 					</Row>
 				</div>

@@ -51,7 +51,6 @@ a {
 	border-radius: 5px;
 }
 .category-grid-style-01 .category-item {
-	/* padding: 66px 25px; */
 	padding: 50px;
 	text-align: center;
 	width: 33.333%;
@@ -66,12 +65,12 @@ a {
 .category-grid-style-01 .category-item:before {
 	content: '';
 	background: #ffffff;
-	width: 110%;
-	height: 110%;
+	width: 100%;
+	height: 100%;
 	display: inline-block;
 	position: absolute;
-	left: -5%;
-	top: -5%;
+	left: 0%;
+	top: 0%;
 	z-index: 1;
 	opacity: 0;
 	-webkit-transform: scale(0.96);
@@ -120,19 +119,21 @@ a {
 	color: #022d62;
 	font-weight: bold;
 	margin-bottom: 0;
+	font-family: 'Montserrat', sans-serif;
 	position: relative;
 	z-index: 2;
-	font-size: 20px;
+	font-size: 15px;
 	text-decoration: none;
 }
 
 .category-grid-style-01 .category-item .category-caption {
 	color: #022d62;
-	font-weight: normal;
+	font-weight: 500;
 	margin-bottom: 0;
 	position: relative;
+	font-family: 'Montserrat', sans-serif;
 	z-index: 2;
-	font-size: 12px;
+	font-size: 9px;
 	margin-top: 16px;
 }
 

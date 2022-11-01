@@ -29,11 +29,11 @@ function TestimonialComponent() {
 					{[1, 2, 3].map((item, idx) => (
 						<div key={item} className={styles.imageWrapper}>
 							<Image
-								src={`/testimonial-${idx}.jpg`}
+								src={`/components/Testimonial-BG.jpg`}
 								alt='testimonial1'
-								layout='responsive'
-								width='100%'
-								height='48%'
+								// layout='responsive'
+								width='1054px'
+								height='410px'
 							/>
 							<div className={styles.testimonialText}>
 								<p>

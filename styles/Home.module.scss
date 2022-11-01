@@ -20,6 +20,7 @@
 	margin-right: auto;
 	margin-left: auto;
 }
+
 .footer {
 	display: flex;
 	flex: 1;
@@ -46,14 +47,18 @@
 			}
 		}
 	}
+	.footerDescription {
+		@include body-medium-para;
+	}
 }
 
 .testimonialWrapper {
+	text-align: center;
 	.testimonialText {
 		color: white;
 		position: absolute;
 		width: 400px;
-		top: 250px;
+		top: 150px;
 		margin-left: 5%;
 	}
 }
@@ -80,12 +85,14 @@
 		color: $orange-shade;
 		span {
 			color: $white-shade;
-			@include module-main-heading;
-			font-weight: bold;
+			@include module-semibold-heading;
 		}
 	}
+	.captionPara {
+		@include body-medium-para;
+	}
 	button {
-		padding: 12px 42px;
+		padding: 16px 42px;
 		border-radius: 50px;
 		background: white;
 		border: none;
@@ -188,33 +195,31 @@
 		margin: 0px 18px;
 		text-align: center;
 		.serviceButton {
-			font-size: 16px;
 			color: #171822;
-			font-weight: 600;
+			border: none;
 			/* display: inline-block; */
 			background: #ffffff;
-			padding: 48px 85px;
+			padding: 24px 64px;
+			padding-top: 34px !important;
 			-webkit-box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
 			box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
 			position: relative;
-			bottom: 10px;
+			bottom: 60px;
 			-webkit-transition: all 0.3s;
 			-o-transition: all 0.3s;
 			transition: all 0.3s;
 			text-decoration: none;
+			@include body-boldTitle;
+			p {
+				@include caption-mediumLink;
+				margin-top: 14px;
+			}
 			&:hover {
 				background-image: $background-shade-2;
 				background-image: $background-shade-1;
 				color: white;
 			}
-			span {
-				color: #f44949;
-				position: relative;
-				top: 3px;
-				-webkit-transition: all 0.3s;
-				-o-transition: all 0.3s;
-				transition: all 0.3s;
-			}
+
 			/* width: 250px !important; */
 		}
 	}
@@ -237,7 +242,7 @@
 }
 
 .eventImage {
-	height: 320px;
+	height: 380px;
 	margin-left: auto;
 	margin-right: auto;
 	justify-content: center;
@@ -247,7 +252,7 @@
 		cursor: pointer;
 		margin: 0px 12px !important;
 		position: relative;
-		max-height: 300px !important;
+		max-height: 380px !important;
 		text-align: center;
 		max-width: 350px;
 		&:hover {
@@ -284,35 +289,26 @@
 			width: 250px !important;
 			position: absolute;
 			background: white;
-			top: 80px;
+			top: 150px;
 			left: 40%;
 			padding: 24px;
-			padding-top: 36px;
+			padding-top: 44px;
 			padding-right: 36px;
 			text-align: left;
 			box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 			.heading {
-				font-size: 22px;
-				font-weight: 600;
-				color: $black-shade;
+				@include caption-boldHeading;
 				margin: 8px 0px;
 			}
 			.price {
-				font-size: 14px;
-				font-weight: 600;
+				@include caption-boldPara;
 				color: $orange-shade !important;
 				text-transform: uppercase;
 				margin: 0px;
 			}
 			.venue {
-				font-size: 12px;
-				margin-bottom: 12px;
-				i {
-					color: $orange-shade !important;
-					font-size: 18px;
-					margin-right: 12px;
-					margin-bottom: 4px;
-				}
+				@include caption-mediumPara;
+				margin: 8px 0px;
 			}
 			.bookNow {
 				background-image: $background-shade-2;
@@ -321,15 +317,14 @@
 				padding: 2px 10px !important;
 				border: 1px solid white;
 				color: white !important;
-				font-weight: 400;
-				font-size: 11px;
+				@include caption-mediumButton;
 				height: 34px !important;
 			}
 			.moreDetail {
-				color: #fba70a;
-				font-size: 12px;
-				margin-top: 8px;
-				margin-left: 12px !important;
+				color: $orange-shade;
+				margin-top: 11px;
+				margin-left: 32px !important;
+				@include caption-mediumLink;
 			}
 			.divider {
 				top: 52px !important;
@@ -505,31 +500,41 @@
 		border-top: 4px solid $orange-shade;
 		width: 107px;
 	}
-	.heading {
-		margin-top: 64px;
-		@include module-heading;
-	}
-	.subHeading {
-		@include module-main-heading;
-		span {
-			font-weight: bold;
+	.dataWrapper {
+		padding: 0px 24px;
+		.heading {
+			margin-top: 48px;
+			@include module-heading;
+			margin-bottom: 36px;
+		}
+		.subHeading {
+			@include module-main-heading;
+			span {
+				font-weight: bold;
+			}
+		}
+		.description {
+			@include body-medium-para;
+			padding-right: 48px;
 		}
 	}
-	.description {
-		@include body-medium-para;
-		padding-right: 48px;
+	.imageTitle {
+		@include body-boldTitle;
+	}
+	.imageCaption {
+		@include caption-mediumLink;
 	}
 }
 
 .aboutZesButton {
 	background-image: $background-shade-2;
 	background-image: $background-shade-1;
-	width: 188px;
-	height: 62px;
+	width: 165px;
+	height: 54px;
 	color: white;
 	border: none;
+	@include body-mediumButton;
 	padding: 16px !important;
-	@include body-bold;
 	border-radius: 49px;
 	margin-bottom: 24px !important;
 	&:hover {

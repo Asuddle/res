@@ -1,7 +1,7 @@
 $font-name: 'Montserrat', sans-serif;
 $font-1-name: 'Mistral';
 $normal: 400;
-$regular: 500;
+$medium: 500;
 $bold: 700;
 $semibold: 600;
 
@@ -23,15 +23,15 @@ $semibold: 600;
 @mixin heading-high {
 	font-family: $font-name !important;
 	font-style: normal !important;
-	font-weight: $semibold !important;
-	font-size: 82px !important;
+	font-weight: $bold !important;
+	font-size: 53px !important;
 }
 
 @mixin heading-basic {
 	font-family: $font-name !important;
 	font-style: normal !important;
 	font-weight: $bold !important;
-	font-size: 99px !important;
+	font-size: 46px !important;
 	line-height: 1;
 }
 
@@ -39,7 +39,7 @@ $semibold: 600;
 	font-family: $font-name !important;
 	font-style: normal !important;
 	font-weight: $semibold !important;
-	font-size: 58px !important;
+	font-size: 27px !important;
 	letter-spacing: 12px;
 }
 
@@ -47,23 +47,67 @@ $semibold: 600;
 	font-family: $font-name !important;
 	font-style: normal !important;
 	font-weight: $semibold !important;
-	font-size: 24px !important;
+	font-size: 14px !important;
 	text-transform: uppercase !important;
 	letter-spacing: 3px;
+}
+
+@mixin module-semibold-heading {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $semibold !important;
+	font-size: 38px !important;
+	line-height: 1.2;
 }
 
 @mixin module-main-heading {
 	font-family: $font-name !important;
 	font-style: normal !important;
 	font-weight: $normal !important;
-	font-size: 44px !important;
+	font-size: 32px !important;
 	line-height: 1.2;
 }
+
+@mixin caption-boldHeading {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $bold !important;
+	font-size: 18px !important;
+}
+
+@mixin caption-mediumButton {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $medium !important;
+	font-size: 10px !important;
+}
+
+@mixin caption-mediumLink {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $medium !important;
+	font-size: 9px !important;
+}
+
+@mixin caption-boldPara {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $bold !important;
+	font-size: 12px !important;
+}
+
+@mixin caption-mediumPara {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $medium !important;
+	font-size: 9px !important;
+}
+
 @mixin caption-heading {
 	font-family: $font-name !important;
 	font-style: normal !important;
 	font-weight: $bold !important;
-	font-size: 26px !important;
+	font-size: 20px !important;
 }
 @mixin caption-sub-heading {
 	font-family: $font-name !important;
@@ -75,15 +119,21 @@ $semibold: 600;
 @mixin body-medium {
 	font-family: $font-name !important;
 	font-style: normal !important;
-	font-weight: $regular !important;
+	font-weight: $medium !important;
+	font-size: 18px !important;
+}
+@mixin body-mediumButton {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $bold !important;
 	font-size: 18px !important;
 }
 
 @mixin body-medium-para {
 	font-family: $font-name !important;
 	font-style: normal !important;
-	font-weight: $regular !important;
-	font-size: 14px !important;
+	font-weight: $medium !important;
+	font-size: 12px !important;
 }
 
 @mixin button-bold {
@@ -103,20 +153,27 @@ $semibold: 600;
 @mixin body-medium-2 {
 	font-family: $font-name !important;
 	font-style: normal !important;
-	font-weight: $regular !important;
+	font-weight: $medium !important;
 	font-size: 21px !important;
 }
 
 @mixin caption-high {
 	font-family: $font-name !important;
 	font-style: normal !important;
-	font-weight: $regular !important;
+	font-weight: $medium !important;
 	font-size: 36px !important;
 }
 
 @mixin nav-link {
 	font-family: $font-name !important;
 	font-style: normal !important;
-	font-weight: $regular !important;
-	font-size: 18px !important;
+	font-weight: $normal !important;
+	font-size: 14px !important;
+}
+
+@mixin body-boldTitle {
+	font-family: $font-name !important;
+	font-style: normal !important;
+	font-weight: $bold !important;
+	font-size: 15px !important;
 }

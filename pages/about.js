@@ -1,16 +1,22 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import 'aos/dist/aos.css';
 
+import React, { useEffect } from 'react';
+
+import AOS from 'aos';
 import Footer from '../components/Footer';
 import GoogleMap from '../components/Map';
 import Head from 'next/head';
 import Header from '../components/Header';
-import React from 'react';
 import ReadyBanner from '../components/ReadyBanner';
 import SubHeader from '../components/SubHeader';
 
 function AboutPage() {
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	return (
 		<div>
 			<Head>

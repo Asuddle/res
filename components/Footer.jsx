@@ -27,7 +27,7 @@ export default function Footer() {
 								<Image src='/logo.JPG' alt='logo' width={100} height={100} />
 								<br />
 								<br />
-								<p>
+								<p className={styles.footerDescription}>
 									Lorem ipsum dolor sit amet consectetur adipisicing elit.
 									Obcaecati, itaque animi sed sint laborum atque minima
 									similique quos assumenda repellat, quasi corporis ex

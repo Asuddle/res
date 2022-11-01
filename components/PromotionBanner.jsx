@@ -10,8 +10,8 @@ export default function PromotionBanner() {
 				<p className={styles.heading}>
 					Are you ready to make <strong>your own Special Events?</strong>{' '}
 				</p>
-
-				<p className={styles.caption}>
+				<br />
+				<p className={styles.captionPara}>
 					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
 					nonummy nibh.
 				</p>
