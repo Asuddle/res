@@ -6,11 +6,11 @@ import styles from '../styles/Home.module.scss';
 import { useState } from 'react';
 
 export default function UpcomingEvents() {
-	const [selected, setSelected] = useState(0);
 	return (
 		<section
 			className='space-ptb bg-dark-half-md'
 			style={{ padding: '80px 0px' }}
+			// data-aos='fade-up'
 		>
 			<div className='container'>
 				<HeadingComponent
@@ -18,7 +18,7 @@ export default function UpcomingEvents() {
 					subHeading='Latest'
 					subBoldHeading='Awesome Events'
 				/>
-				<Row className={styles.eventImage}>
+				<Row className={styles.eventImage} data-aos='fade-up'>
 					{[1, 2, 3].map((item) => (
 						<Col
 							key={item}
@@ -30,8 +30,8 @@ export default function UpcomingEvents() {
 							// 		  }
 							// 		: {}
 							// }
-							onMouseOver={() => setSelected(item)}
-							onMouseLeave={() => setSelected(0)}
+							// onMouseOver={() => setSelected(item)}
+							// onMouseLeave={() => setSelected(0)}
 						>
 							<Image
 								src={`/service-${item}.jpg`}
@@ -46,16 +46,17 @@ export default function UpcomingEvents() {
 								<p className={styles.price}>3000 AED</p>
 								<br />
 								<p className={styles.venue}>
-									<i className='fa-solid fa-2x fa-location-dot'></i> Venue Here
+									<i className='fa-solid fa-location-dot'></i> Venue Here
 								</p>
 								<p className={styles.venue}>
-									<i className='fa-solid fa-2x fa-user'></i> Ladies & Gents
+									<i className='fa-solid fa-user'></i> Ladies & Gents
 								</p>
 								<br />
 								<div style={{ display: 'inline-flex' }}>
 									<button className={styles.bookNow}>BOOK NOW</button>
 									<p className={styles.moreDetail}>See Details</p>
 								</div>
+								<div className={styles.divider}></div>
 							</div>
 						</Col>
 					))}

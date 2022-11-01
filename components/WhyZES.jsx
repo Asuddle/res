@@ -14,12 +14,15 @@ function WhyZES() {
 	return (
 		<section
 			className={styles.whyZesWrapper}
+			data-aos='fade-right'
+			data-aos-delay='500'
+
 			// className='space-ptb bg-dark-half-md'
 		>
 			<div className='container'>
 				<div className='row mb-3 position-relative'>
 					<div className='col-sm-12 col-md-12 col-lg-4'>
-						<div className='linear-line-style'></div>
+						<div className={styles.upperDivider}></div>
 						<p className={styles.heading}>Why ZES</p>
 						<p className={styles.subHeading}>
 							Zes <span>Events Management</span>

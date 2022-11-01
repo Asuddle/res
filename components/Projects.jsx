@@ -40,7 +40,10 @@ export default function ProjectsComponent() {
 	];
 
 	return (
-		<div>
+		<div className={styles.projectWrapper} data-aos='flip-left'>
+			<br />
+			<br />
+			<br />
 			<div className={styles.container}>
 				<HeadingComponent
 					heading='Gallery'

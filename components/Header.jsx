@@ -23,23 +23,36 @@ function Header({
 			<Navigation />
 			<Row className={styles.container}>
 				<Col md={11} className={styles.siteData}>
-					<p className={styles.weZes}>{title}</p>
-					<p className={styles.totalMember}>{member}</p>
-					<p className={styles.member}>{members}</p>
+					<p
+						className={styles.weZes}
+						data-aos='fade-right'
+						data-aos-delay='500'
+					>
+						{title}
+					</p>
+					<p
+						className={styles.totalMember}
+						data-aos='fade-up-left'
+						data-aos-delay='800'
+					>
+						{member}
+					</p>
+					<p className={styles.member} data-aos='fade-up' data-aos-delay='800'>
+						{members}
+					</p>
 				</Col>
 				<Col className={styles.socialIcons}>
 					<FontAwesomeIcon icon={faFacebookF} />
 					<br />
 					<FontAwesomeIcon icon={faInstagram} />
 					<br />
-
+					<FontAwesomeIcon icon={faLinkedinIn} />
+					<br />
 					<FontAwesomeIcon icon={faYoutube} />
 					<br />
-
 					<FontAwesomeIcon icon={faTwitter} />
-					<br />
-					<FontAwesomeIcon icon={faLinkedinIn} />
-					<div></div>
+
+					<div className={styles.verticalDivider}></div>
 				</Col>
 			</Row>
 		</div>

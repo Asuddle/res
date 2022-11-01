@@ -1,7 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import 'aos/dist/aos.css';
 
+import AOS from 'aos';
 import { Button } from 'reactstrap';
 import Footer from '../components/Footer';
 import GoogleMap from '../components/Map';
@@ -17,8 +19,14 @@ import TestimonialComponent from '../components/Testimonial';
 import UpcomingEvents from '../components/UpcomingEvents';
 import WhyZES from '../components/WhyZES';
 import styles from '../styles/Home.module.scss';
+import { useEffect } from 'react';
 
 export default function Home() {
+	useEffect(() => {
+		AOS.init();
+	}, []);
+	// AOS.init({ duration: 1000 });
+
 	return (
 		<div>
 			<Head>

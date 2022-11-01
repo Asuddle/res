@@ -58,7 +58,7 @@ function Example(args) {
 								<button className={styles.becomeMember}>Become Member</button>
 							</li>
 							<li className='nav-item'>
-								<FontAwesomeIcon icon={faCircleUser} fa-2x />
+								<FontAwesomeIcon icon={faCircleUser} />
 							</li>
 						</ul>
 					</div>

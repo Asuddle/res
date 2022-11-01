@@ -89,6 +89,9 @@ export default function ServiceComponent() {
 
 	return (
 		<div className={styles.serviceWrapper}>
+			<br />
+			<br />
+			<br />
 			<div className={styles.container}>
 				<HeadingComponent
 					heading='Our Services'
@@ -115,10 +118,6 @@ export default function ServiceComponent() {
 						</div>
 					))}
 				</Slider>
-				<br />
-				<br />
-				<br />
-				<br />
 			</div>
 		</div>
 	);
