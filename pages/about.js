@@ -12,6 +12,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import ReadyBanner from '../components/ReadyBanner';
 import SubHeader from '../components/SubHeader';
+import WhoWeAre from '../components/WhoWeAre';
 
 function AboutPage() {
 	useEffect(() => {
@@ -25,6 +26,7 @@ function AboutPage() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Header title='About Us' member='' members='' />
+			<WhoWeAre />
 			<ReadyBanner />
 			<GoogleMap />
 			<Footer />

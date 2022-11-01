@@ -3,6 +3,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import Footer from '../components/Footer';
+import GalleryMainComponent from '../components/Gallery';
 import GoogleMap from '../components/Map';
 import Head from 'next/head';
 import Header from '../components/Header';
@@ -17,6 +18,7 @@ export default function GalleryComponent() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Header title='Gallery' member='' members='' />
+			<GalleryMainComponent />
 			<ReadyBanner />
 			<GoogleMap />
 			<Footer />

@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import GoogleMap from '../components/Map';
 import Head from 'next/head';
 import Header from '../components/Header';
+import LifeWithWithoutZes from '../components/WhyZes/index';
 import ReadyBanner from '../components/ReadyBanner';
 import TestimonialComponent from '../components/Testimonial';
 
@@ -18,7 +19,12 @@ export default function WhyZes() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Header title='Why Zes' member='' members='' />
+			<LifeWithWithoutZes />
 			<ReadyBanner />
+			<br />
+			<br />
+			<br />
+			<br />
 			<TestimonialComponent />
 			<GoogleMap />
 			<Footer />

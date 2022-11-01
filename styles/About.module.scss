@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import '../styles/color-rules.scss';
+@import '../styles/typography-rules.scss';
+
+.whoWeAre {
+	padding: 80px 0px;
+	.upperDivider {
+		border-top: 4px solid $orange-shade;
+		width: 107px;
+	}
+	.dataWrapper {
+		padding: 0px 24px;
+		.heading {
+			margin-top: 48px;
+			@include module-heading;
+			margin-bottom: 36px;
+		}
+		.subHeading {
+			@include module-main-heading;
+			span {
+				font-weight: bold;
+			}
+		}
+		.description {
+			@include body-medium-para;
+			padding-right: 48px;
+		}
+	}
+	.imageTitle {
+		@include body-boldTitle;
+	}
+	.imageCaption {
+		@include caption-mediumLink;
+	}
+	.aboutZesButton {
+		background-image: $background-shade-2;
+		background-image: $background-shade-1;
+		width: 165px;
+		height: 54px;
+		color: white;
+		border: none;
+		@include body-mediumButton;
+		padding: 16px !important;
+		border-radius: 49px;
+		margin-bottom: 24px !important;
+		&:hover {
+			box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+		}
+	}
+}
