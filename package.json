@@ -9,6 +9,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@flaticon/flaticon-uicons": "^1.7.0",
 		"@fortawesome/fontawesome-svg-core": "^6.2.0",
 		"@fortawesome/free-brands-svg-icons": "^6.2.0",
 		"@fortawesome/free-solid-svg-icons": "^6.2.0",

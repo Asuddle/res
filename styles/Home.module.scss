@@ -14,11 +14,18 @@
 	align-items: center;
 }
 .container {
-	max-width: 1280px;
+	max-width: 1280px !important;
 	// padding-right: var(--bs-gutter-x, 0.75rem);
 	// padding-left: var(--bs-gutter-x, 0.75rem);
-	margin-right: auto;
-	margin-left: auto;
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+.smallContainer {
+	max-width: 1080px !important;
+	// padding-right: var(--bs-gutter-x, 0.75rem);
+	// padding-left: var(--bs-gutter-x, 0.75rem);
+	margin-right: auto !important;
+	margin-left: auto !important;
 }
 
 .footer {
