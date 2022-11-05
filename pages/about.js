@@ -6,7 +6,9 @@ import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
 
 import AOS from 'aos';
+import CEOMessage from '../components/About/CEOMessage';
 import Footer from '../components/Footer';
+import FounderMessage from '../components/About/FounderMessage';
 import GoogleMap from '../components/Map';
 import Head from 'next/head';
 import Header from '../components/Header';
@@ -29,6 +31,8 @@ function AboutPage() {
 			<Header title='About Us' member='' members='' />
 			<WhoWeAre />
 			<VisionMissionComponent />
+			<CEOMessage />
+			<FounderMessage />
 			<ReadyBanner />
 			<GoogleMap />
 			<Footer />

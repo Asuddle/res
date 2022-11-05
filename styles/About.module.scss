@@ -116,4 +116,48 @@
 			box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 		}
 	}
+	button {
+		padding: 12px 30px;
+		border-radius: 50px;
+		background-color: $light-grey-shade;
+		color: $orange-shade;
+		@include caption-boldHeading;
+		border-image: $background-shade-1;
+		border-image: $background-shade-2;
+		border: 1px solid;
+		&:hover {
+			box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+		}
+
+		// background-shade-1
+		// background-shade-2
+	}
+}
+
+.ceoMessageWrapper {
+	padding: 150px 0px;
+	.ceoMessage {
+		min-height: 500px;
+		box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+	}
+}
+.founderMessageWrapper {
+	padding: 150px 0px;
+	background: $light-grey-shade !important;
+	.founderMessage {
+		min-height: 500px;
+		background: $white-shade;
+		border-radius: 16px !important;
+		box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+		padding: 65px;
+		.founderImage {
+			// padding: 65px;
+		}
+		.founderText {
+			.description {
+				@include body-medium-para;
+				padding-right: 48px;
+			}
+		}
+	}
 }

@@ -453,6 +453,26 @@
 			font-size: 14px !important;
 		}
 	}
+	.activeNav {
+		a {
+			margin: 0px 12px !important;
+			color: $orange-shade !important;
+			// text-decoration: underline !important;
+			border-bottom: 1px solid $orange-shade !important;
+			padding-bottom: 6px !important;
+			@include nav-link;
+			&:hover {
+				color: $orange-shade !important;
+			}
+			@media screen and (max-width: 1250px) {
+				margin: 0px 6px;
+			}
+			@media screen and (max-width: 1150px) {
+				margin: 0px;
+				font-size: 14px !important;
+			}
+		}
+	}
 	button {
 		color: white;
 	}

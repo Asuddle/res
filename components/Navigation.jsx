@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import Link from 'next/link';
 import { faCircleUser } from '@fortawesome/free-solid-svg-icons';
 import styles from '../styles/Home.module.scss';
+import { useRouter } from 'next/router';
 
 // <-- import styles to be used
 
@@ -21,6 +22,13 @@ function Example(args) {
 			href: '/contact',
 		},
 	];
+	const [activeNav, setActiveNav] = useState('/');
+	const router = useRouter();
+
+	useEffect(() => {
+		console.log('useEffect fired!', { asPath: router.asPath });
+		setActiveNav(router.asPath);
+	}, [router.asPath]);
 
 	return (
 		<div className={styles.container}>
@@ -46,10 +54,11 @@ function Example(args) {
 					>
 						<ul className='navbar-nav mr-auto' style={{ marginLeft: 'auto' }}>
 							{navArr.map((item) => (
-								<li key={item.name} className='nav-item'>
-									<Link className='nav-link' href={item.href}>
-										{item.name}
-									</Link>
+								<li
+									key={item.name}
+									className={item.href === activeNav ? styles.activeNav : ''}
+								>
+									<Link href={item.href}>{item.name}</Link>
 								</li>
 							))}
 							<li className='nav-item'>

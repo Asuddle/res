@@ -6,7 +6,11 @@ import styles from '../../styles/About.module.scss';
 
 export default function VisionMissionComponent() {
 	return (
-		<section className={styles.visionMissionWrapper}>
+		<section
+			className={styles.visionMissionWrapper}
+			data-aos='fade-right'
+			data-aos-delay='500'
+		>
 			<ContainerComponent>
 				<Row>
 					<Col md={7} className={styles.imageWrap}>
@@ -41,6 +45,8 @@ export default function VisionMissionComponent() {
 							tation ullam corper suscipit lobortis nisl ut aliquip ex ea
 							commodo consequat.
 						</p>
+						<br />
+						<button>Enquire Now</button>
 					</Col>
 				</Row>
 			</ContainerComponent>
