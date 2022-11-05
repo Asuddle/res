@@ -1,9 +1,7 @@
 import { Col, Row } from 'reactstrap';
 
-import { Canvas } from 'react-canvas-js';
-import ParticleAnimation from 'react-particle-animation';
-import Particles from 'react-tsparticles';
-import { loadFull } from 'tsparticles';
+// import ParticleAnimation from 'react-particle-animation';
+// import Particles from 'react-tsparticles';
 import styles from '../styles/Home.module.scss';
 
 function ReadyBanner() {
@@ -13,11 +11,11 @@ function ReadyBanner() {
 
 			<div className={styles.container}>
 				<div>
-					<Particles
-						id='tsparticles'
+					{/* <Particles */}
+					{/* id='tsparticles'
 						// style={{ width: '100%', maxHeight: '500px', position: 'relative' }}
 						// options={headerParticles}
-					/>
+					// /> */}
 					<Row
 						facts
 						my-

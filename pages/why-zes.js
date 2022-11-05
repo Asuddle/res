@@ -2,6 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import ClientSatisfaction from '../components/WhyZes/clientSatisfaction';
+import EventManagementSolutions from '../components/WhyZes/eventManagementSolutions';
 import Footer from '../components/Footer';
 import GoogleMap from '../components/Map';
 import Head from 'next/head';
@@ -20,6 +22,8 @@ export default function WhyZes() {
 			</Head>
 			<Header title='Why Zes' member='' members='' />
 			<LifeWithWithoutZes />
+			<EventManagementSolutions />
+			<ClientSatisfaction />
 			<ReadyBanner />
 			<br />
 			<br />

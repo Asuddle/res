@@ -1,3 +1,4 @@
+import { Col, Row } from 'reactstrap';
 import {
 	faChampagneGlasses,
 	faHandshake,
@@ -19,8 +20,8 @@ function WhoWeAre() {
 			data-aos-delay='500'
 		>
 			<div className='container'>
-				<div className='row mb-3 position-relative'>
-					<div className='col-sm-12 col-md-12 col-lg-5'>
+				<Row className='mb-3 position-relative'>
+					<Col md={12} sm={12} lg={6}>
 						<div className={styles.upperDivider}></div>
 						<div className={styles.dataWrapper}>
 							<p className={styles.heading}>Who we are</p>
@@ -44,10 +45,33 @@ function WhoWeAre() {
 							<button className={styles.aboutZesButton}>Join Now</button>
 							<br />
 						</div>
-					</div>
-					<div className='col-sm-12 col-md-12 col-lg-8'></div>
-				</div>
+					</Col>
+					<Col md={12} sm={12} lg={6} className={styles.imagePortion}>
+						<div className={styles.parent}>
+							<div className={styles.designDivider}></div>
+							<Image
+								className={styles.image1}
+								width={460}
+								height={500}
+								alt='image-1'
+								src='/service-2.jpg'
+							/>
+							<div className={styles.smallImageWrapper}>
+								<Image
+									className={styles.image2}
+									width={280}
+									height={280}
+									alt='image-2'
+									src='/service-4.jpg'
+								/>
+							</div>
+						</div>
+					</Col>
+				</Row>
 			</div>
+			<br />
+			<br />
+			<br />
 		</section>
 	);
 }

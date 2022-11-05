@@ -12,6 +12,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import ReadyBanner from '../components/ReadyBanner';
 import SubHeader from '../components/SubHeader';
+import VisionMissionComponent from '../components/About/VisionMission';
 import WhoWeAre from '../components/WhoWeAre';
 
 function AboutPage() {
@@ -27,6 +28,7 @@ function AboutPage() {
 			</Head>
 			<Header title='About Us' member='' members='' />
 			<WhoWeAre />
+			<VisionMissionComponent />
 			<ReadyBanner />
 			<GoogleMap />
 			<Footer />
