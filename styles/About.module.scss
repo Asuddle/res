@@ -177,13 +177,13 @@
 				}
 				.heading {
 					// filter: drop-shadow(0.5px 0.5px 0.5px white);
-					@include caption-heading;
+					@include body-boldTitle;
 					color: $orange-shade;
 					margin-bottom: 24px !important;
 				}
 				.description {
 					@include body-medium-para;
-					padding-right: 20px;
+					padding-right: 32px;
 					color: #ffffff;
 				}
 			}
