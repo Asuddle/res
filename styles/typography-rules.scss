@@ -1,5 +1,11 @@
+@font-face {
+	font-family: 'Mistral';
+	src: local('Mistral'),
+		url('./fonts/Mistral/design.graffiti.mistral.ttf') format('truetype');
+}
+
 $font-name: 'Montserrat', sans-serif;
-$font-1-name: 'Mistral';
+$font-1-name: 'Mistral', sans-serif;
 $normal: 400;
 $medium: 500;
 $bold: 700;
