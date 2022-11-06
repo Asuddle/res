@@ -43,15 +43,15 @@ export default function ServiceComponent() {
 	const serviceArray = [
 		{
 			name: 'Service',
-			src: '/project/01.jpg',
+			src: '/components/service1.JPG',
 		},
 		{
 			name: 'Service',
-			src: '/project/01.jpg',
+			src: '/components/service1.JPG',
 		},
 		{
 			name: 'Service',
-			src: '/project/01.jpg',
+			src: '/components/service1.JPG',
 		},
 		// {
 		// 	name: 'Service',
@@ -108,7 +108,7 @@ export default function ServiceComponent() {
 							<div className={styles.imageContainer}>
 								<Image
 									className='img-fluid'
-									src={`/components/service${idx + 1}.JPG`}
+									src={item.src}
 									alt=''
 									// layout='responsive'
 									width='292'
