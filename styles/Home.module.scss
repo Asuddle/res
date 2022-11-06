@@ -89,12 +89,36 @@
 
 .testimonialWrapper {
 	text-align: center;
+	position: relative;
+	svg {
+		width: 150px;
+		height: 150px;
+		/* top: 20px; */
+		position: absolute;
+		color: $white-shade !important;
+		left: 227px !important;
+		top: -87px;
+		opacity: 0.2;
+		stroke: white;
+	}
 	.testimonialText {
 		color: white;
 		position: absolute;
-		width: 400px;
+		width: 600px;
 		top: 150px;
-		margin-left: 5%;
+		margin-left: 4%;
+		.description {
+			@include body-medium-para;
+		}
+		.name {
+			@include body-Bold16;
+			color: $orange-shade !important;
+			margin-top: 24px !important;
+			margin-bottom: 4px !important;
+		}
+		.ceoFounder {
+			@include body-Regular16;
+		}
 	}
 }
 
