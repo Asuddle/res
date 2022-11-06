@@ -83,6 +83,7 @@
 			font-weight: bold;
 		}
 	}
+
 	.description {
 		@include body-medium-para;
 		padding-right: 48px;
@@ -137,21 +138,93 @@
 .ceoMessageWrapper {
 	padding: 150px 0px;
 	.ceoMessage {
-		min-height: 500px;
-		box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+		height: 550px !important;
+		.dataPortion {
+			padding: 9% 3% !important;
+			// box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+			box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+			// clip-path: inset(-4px 0px -4px -4px);
+			.ceoName {
+				@include caption-heading;
+			}
+			.ceoWhoWeAre {
+				padding-top: 10%;
+				@include caption-sub-heading;
+				text-transform: capitalize !important;
+				// padding-right: 23%;
+				padding-top: 26%;
+			}
+		}
+		.imagePortion {
+			position: relative;
+			padding: 0px;
+			.ceoMessage {
+				position: absolute;
+				height: 100%;
+				width: 40%;
+				left: 0px;
+				// background-image: $background-shade-2;
+				// background-image: $background-shade-1;
+				background-image: linear-gradient(149deg, #d4175c 0%, #fda700 100%);
+				top: 0;
+				opacity: 0.9;
+				padding: 9% 4% !important;
+				&::after {
+					content: '';
+					display: block;
+					position: absolute;
+					z-index: 2;
+				}
+				.heading {
+					// filter: drop-shadow(0.5px 0.5px 0.5px white);
+					@include caption-heading;
+					color: $orange-shade;
+					margin-bottom: 24px !important;
+				}
+				.description {
+					@include body-medium-para;
+					padding-right: 20px;
+					color: #ffffff;
+				}
+			}
+		}
 	}
 }
+
 .founderMessageWrapper {
 	padding: 150px 0px;
 	background: $light-grey-shade !important;
+	.founderHeading {
+		@include caption-boldHeading;
+	}
+	.founderMessageHeading {
+		color: $orange-shade;
+		@include caption-boldHeading;
+	}
+	.description {
+		@include body-medium-para;
+		padding-right: 48px;
+	}
 	.founderMessage {
 		min-height: 500px;
 		background: $white-shade;
 		border-radius: 16px !important;
 		box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 		padding: 65px;
+		position: relative;
 		.founderImage {
 			// padding: 65px;
+			position: relative;
+		}
+		.socialMedia {
+			position: absolute;
+			// padding: 20px 50px;
+			background: white;
+			width: 300px;
+			height: 60px;
+			bottom: -20px;
+			left: 60px;
+			box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 		}
 		.founderText {
 			.description {
