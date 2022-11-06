@@ -43,15 +43,15 @@ export default function ServiceComponent() {
 	const serviceArray = [
 		{
 			name: 'Service',
-			src: '/components/service1.JPG',
+			src: '/project/01.jpg',
 		},
 		{
 			name: 'Service',
-			src: '/components/service1.JPG',
+			src: '/project/01.jpg',
 		},
 		{
 			name: 'Service',
-			src: '/components/service1.JPG',
+			src: '/project/01.jpg',
 		},
 		// {
 		// 	name: 'Service',
