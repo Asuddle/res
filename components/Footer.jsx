@@ -1,29 +1,77 @@
 import { Col, Row } from 'reactstrap';
+import {
+	faFacebook,
+	faFacebookF,
+	faInstagram,
+	faLinkedinIn,
+	faSnapchat,
+	faSnapchatGhost,
+	faSquareSnapchat,
+	faTwitter,
+	faWhatsapp,
+	faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
+import { ProjectImageComponent } from './Image';
+import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons';
 import styles from '../styles/Home.module.scss';
 
 export default function Footer() {
 	const linkArr = [
 		{ name: 'Home' },
-		{ name: 'About Zes' },
-		{ name: 'Why Zes' },
+		{ name: 'About ZeS' },
+		{ name: 'Why ZeS' },
 		{ name: 'Interests' },
 		{ name: 'Registration' },
 		{ name: 'Contact Us' },
 		{ name: 'Support' },
 	];
+	const galleryImages = [
+		{
+			title: 'Project Title',
+			largeImage: '/service-6.jpg',
+			smallImage: '/service-6.jpg',
+		},
+		{
+			title: 'Project Title',
+			largeImage: '/service-2.jpg',
+			smallImage: '/service-2.jpg',
+		},
+		{
+			title: 'Project Title',
+			largeImage: '/service-1.jpg',
+			smallImage: '/service-1.jpg',
+		},
+		{
+			title: 'Project Title',
+			largeImage: '/service-3.jpg',
+			smallImage: '/service-3.jpg',
+		},
+		{
+			title: 'Project Title',
+			largeImage: '/service-4.jpg',
+			smallImage: '/service-4.jpg',
+		},
+		{
+			title: 'Project Title',
+			largeImage: '/service-5.jpg',
+			smallImage: '/service-5.jpg',
+		},
+	];
 	return (
 		<div>
 			<footer className={styles.footer}>
 				<div
-					className='container-fluid text-light footer py-5 wow fadeIn'
+					className='container-fluid text-light footer py-4 wow fadeIn'
+					// style={{ paddingBottom: '8px' }}
 					// style='background:#282828'
 					data-wow-delay='0.1s'
 				>
 					<div className='container py-5'>
 						<Row>
-							<Col lg={5} md={6}>
+							<Col lg={5} md={6} className={styles.footerDescriptionWrapper}>
 								<Image src='/logo.JPG' alt='logo' width={100} height={100} />
 								<br />
 								<br />
@@ -34,34 +82,42 @@ export default function Footer() {
 									asperiores! Libero quibusdam incidunt mollitia a porro!
 								</p>
 								<br />
-								<p>Follow Us</p>
+								<p className={styles.footerHeading}>Follow Us</p>
+								<FontAwesomeIcon icon={faTwitter} />
+								<FontAwesomeIcon icon={faFacebookF} />
+								<FontAwesomeIcon icon={faWhatsapp} />
+								<FontAwesomeIcon icon={faSnapchat} />
+								<FontAwesomeIcon icon={faYoutube} />
+								<FontAwesomeIcon icon={faInstagram} />
+								<br />
+								<br />
 							</Col>
 							<Col lg={3} md={6}>
-								<h4 className='text-white mb-4'>Quick Links</h4>
+								<p className={styles.footerHeading}>Quick Links</p>
 								{linkArr.map((item) => (
 									<div key={item.name} className={styles.footerLink}>
-										<a className='btn btn-link mb-3' href=''>
-											{item.name}
-										</a>
+										<div className='btn btn-link mb-3' href=''>
+											<FontAwesomeIcon icon={faCircleChevronRight} />
+											<span>{item.name}</span>{' '}
+										</div>
 									</div>
 								))}
 							</Col>
 							<Col lg={4} md={6}>
-								<h4 className='text-white mb-4'>Newsletter</h4>
-								<p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-								<div className='position-relative w-100'>
-									<input
-										className='form-control bg-light border-light w-100 py-3 ps-4 pe-5'
-										type='text'
-										placeholder='Your email'
-									/>
-									<button
-										type='button'
-										className='btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2'
-									>
-										SignUp
-									</button>
-								</div>
+								<p className={styles.footerHeading}>ZeS Gallery</p>
+
+								<Row noGutters>
+									{galleryImages.map((item) => (
+										<Col sm={12} md={6} lg={4} key={item.largeImage}>
+											<ProjectImageComponent
+												key={item.largeImage}
+												title={item.title}
+												largeImage={item.largeImage}
+												smallImage={item.smallImage}
+											/>
+										</Col>
+									))}
+								</Row>
 							</Col>
 						</Row>
 					</div>
@@ -69,21 +125,18 @@ export default function Footer() {
 			</footer>
 			<div
 				className='container-fluid copyright py-4'
-				style={{ background: '#404040', color: 'white' }}
+				style={{ background: '#2e2e2e', color: 'white' }}
 			>
+				{/* opyrights Reserved © 2022 ZeS Group */}
 				<div className='container'>
-					<div className='row'>
+					<Row className={styles.privacyPolicy}>
 						<div className='col-md-6 text-center text-md-start mb-3 mb-md-0'>
-							&copy;{' '}
-							<a className='border-bottom' href='#'>
-								ZES
-							</a>
-							, All Right Reserved.
+							Copyrights Reserved &copy; 2022 ZeS Group
 						</div>
 						<div className='col-md-6 text-center text-md-end'>
 							Privacy Policy | Term & Conditions
 						</div>
-					</div>
+					</Row>
 				</div>
 			</div>
 		</div>

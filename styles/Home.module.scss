@@ -35,28 +35,56 @@
 	border-top: 1px solid #eaeaea;
 	justify-content: center;
 	align-items: center;
-	background: #282828;
+	background: #232323;
+
+	.footerHeading {
+		color: $white-shade !important;
+		@include caption-heading;
+		margin-bottom: 1.5rem !important;
+	}
 	.footerLink {
 		text-align: left;
-		a {
+		div {
 			text-decoration: none;
 			color: white;
 			margin-bottom: 2px !important;
-			&:before {
-				position: relative;
-				content: '\f105';
-				font-family: 'Font Awesome 5 Free';
-				font-weight: 900;
-				margin-right: 10px;
-			}
+			padding-left: 0px !important;
+			margin-right: 12px;
+			@include body-medium-para;
 			&:hover {
-				color: lightblue;
+				color: $orange-shade;
+			}
+			svg {
+				width: 14px !important;
+				height: 14px !important;
+				margin-bottom: 1px;
+				margin-left: 6px !important;
+			}
+			span {
+				margin-left: 8px !important;
 			}
 		}
 	}
-	.footerDescription {
-		@include body-medium-para;
+	.footerDescriptionWrapper {
+		svg {
+			width: 28px;
+			height: 28px;
+			margin: 0px 10px;
+			opacity: 0.3;
+			&:hover {
+				opacity: 1;
+				cursor: pointer;
+			}
+		}
+		.footerDescription {
+			@include body-medium-para;
+			padding-right: 20%;
+		}
 	}
+}
+
+.privacyPolicy {
+	@include body-medium;
 }
 
 .testimonialWrapper {
@@ -379,7 +407,8 @@
 	text-align: center;
 	padding-top: 24px;
 	.siteData {
-		margin-top: 132px !important;
+		margin-top: 15% !important;
+		// margin-top: 132px !important;
 	}
 	p {
 		margin: 0px !important;
