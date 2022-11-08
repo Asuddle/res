@@ -34,9 +34,15 @@ function Example(args) {
 		<div className={styles.container}>
 			<div className={styles.navigationWrapper}>
 				<nav className='navbar navbar-expand-lg'>
-					<Image src='/logo.JPG' alt='logo' width={100} height={100} />
+					<Image
+						class='navbar-brand'
+						src='/logo.JPG'
+						alt='logo'
+						width={100}
+						height={100}
+					/>
 					<button
-						className='navbar-toggler'
+						class='navbar-toggler'
 						type='button'
 						data-toggle='collapse'
 						data-target='#navbarSupportedContent'
@@ -44,7 +50,7 @@ function Example(args) {
 						aria-expanded='false'
 						aria-label='Toggle navigation'
 					>
-						<span className='navbar-toggler-icon'></span>
+						<span class='navbar-toggler-icon'></span>
 					</button>
 
 					<div
@@ -56,7 +62,9 @@ function Example(args) {
 							{navArr.map((item) => (
 								<li
 									key={item.name}
-									className={item.href === activeNav ? styles.activeNav : ''}
+									className={
+										item.href === activeNav ? styles.activeNav : 'nav-item'
+									}
 								>
 									<Link href={item.href}>{item.name}</Link>
 								</li>

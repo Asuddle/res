@@ -3,9 +3,16 @@
 	src: local('Mistral'),
 		url('./fonts/Mistral/design.graffiti.mistral.ttf') format('truetype');
 }
+@font-face {
+	font-family: 'Metropolis';
+	src: local('Metropolis'),
+		url('./fonts/Metropolis/Metropolis-Black.otf') format('openType');
+}
 
 $font-name: 'Montserrat', sans-serif;
 $font-1-name: 'Mistral', sans-serif;
+$font-2-name: 'Metropolis', sans-serif;
+
 $normal: 400;
 $medium: 500;
 $bold: 700;
@@ -184,7 +191,7 @@ $semibold: 600;
 }
 
 @mixin nav-link {
-	font-family: $font-name !important;
+	font-family: $font-2-name !important;
 	font-style: normal !important;
 	font-weight: $normal !important;
 	font-size: 14px !important;
