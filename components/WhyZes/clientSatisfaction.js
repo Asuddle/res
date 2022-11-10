@@ -17,15 +17,11 @@ export default function ClientSatisfaction() {
 								Client <span>Satisfaction</span>
 							</p>
 							<p className={styles.description}>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-								diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-								aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-								nostrud exerci tation ullam corper suscipit lobortis nisl ut
-								aliquip ex ea com modo consequat. Lorem ipsum dolor sit amet,
-								consec tetuer adipiscing elit, sed diam nonummy nibh euis mod
-								tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-								enim ad minim veniam, quis nostrud exerci tation ullam corper
-								suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+								Zuyyana Zaidi, the company's founder and current CEO, has also
+								been working tirelessly on a brand-new project for the Zes
+								Beauty Club in anticipation of the relaunch of Feed Your Beauty.
+								We can't wait to give you the whole story and share all the
+								details with you.
 							</p>
 						</div>
 					</Col>

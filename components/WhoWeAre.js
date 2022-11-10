@@ -30,15 +30,22 @@ function WhoWeAre() {
 							</p>
 							<br />
 							<p className={styles.description}>
-								corrupti dolore illum doloremque hic dignissimos explicabo?
-								Voluptates incidunt expedita hic. Lorem, ipsum dolor sit amet
-								consectetur adipisicing elit. Totam voluptatibus veniam impedit
-								ot saepe pariatur dolorem cupiditate! Vitae, veritatis possimus!
+								The Zes Beauty organic cosmetics collection is certified to
+								satisfy stringent organic standards and does not include any
+								chemicals or preservatives. Using these products, you may be
+								able to achieve skin that is more radiant and young. When
+								developing our cosmetics, we take into consideration your
+								individual preferences regarding skin type and other factors. We
+								provide a wide variety of products for purchase, including
+								facial massage creams, bath bombs, face oils, lip scrubs, lip
+								balms, and lip scrubs. Nevertheless, with Zes Beauty, the beauty
+								salon travels to the customer.
 							</p>
 							<p className={styles.description}>
-								corrupti dolore illum doloremque hic dignissimos explicabo?
-								Voluptates incidunt expedita hic. Lorem, ipsum dolor sit amet
-								consectetur adipisicing elit.
+								A salon that focuses on making clients feel pampered by
+								providing services such as massage, facials, body cleanses, hair
+								styling, henna tattoos, acrylic nails, and eyelash extensions,
+								among other beauty enhancements.
 							</p>
 							<br />
 							<br />

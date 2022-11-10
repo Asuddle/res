@@ -18,23 +18,24 @@ export default function LifeWithWithoutZes() {
 							</p>
 							<br />
 							<p className={styles.description}>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-								diam nonum my nibh euismod tincidunt ut laoreet dolore magna
-								aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-								nostrud exerci tation ullamcorper susci pit lobortis nisl ut
-								aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-								in hendrerit in vulputate velit esse molestie consequat, vel
-								illum dolore eu feugiat nulla facili sis at vero eros et
-								accumsan et iusto odio dignis sim qui blandit prae sent luptatum
-								zzril delenit augue duis dolore te feugait nulla facilisi.
+								The Zes Beauty Club was established so that women may have
+								confidence in their skills and experience life to the fullest to
+								the extent possible. A lady must be gorgeous, have
+								self-assurance, and be able to manipulate her looks with her
+								thoughts in order to become a member of the Zes Beauty Club.
 							</p>
 							<p className={styles.description}>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-								diam nonum my nibh euismod tincidunt ut laoreet dolore magna
-								aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-								nostrud exerci tation ullamcorper susci pit lobortis nisl ut
-								aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-								in hendrerit in vulputate velit esse molestie consequat.
+								Because they know that their fellow club members would always
+								have their backs, the women who are members of the Zes Beauty
+								Club are able to feel secure enough to express themselves and
+								follow their hobbies without fear of judgment from other club
+								members. This amazing club intends to put the old saying, "Your
+								network is your net worth," into practise by pushing its members
+								to establish tighter relationships with one another. We've all
+								heard the saying, and it's one that we can all attest to having
+								some validity. We have more strength than any other group when
+								we work together. In addition to this, we think of ourselves as
+								belonging to the Zes gender.
 							</p>
 							<br />
 							<br />
@@ -50,24 +51,24 @@ export default function LifeWithWithoutZes() {
 							</p>
 							<br />
 							<p className={styles.description}>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-								diam nonum my nibh euismod tincidunt ut laoreet dolore magna
-								aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-								nostrud exerci tation ullamcorper susci pit lobortis nisl ut
-								aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-								in hendrerit in vulputate velit esse molestie consequat, vel
-								illum dolore eu feugiat nulla facili sis at vero eros et
-								accumsan et iusto odio dignis sim qui blandit prae sent luptatum
-								zzril delenit augue duis dolore te feugait nulla facilisi.
+								Those people who are immune to the Zes Beauty Club that we are
+								all about are still living, but their lives are incomplete since
+								they have not yet tasted the genuine sweetness that life has to
+								offer. A life without Zes Beauty Club is comparable to a flower
+								without a fragrance, a bird without wings, an ocean without
+								water, and a night sky without stars. If you are unable to let
+								the experience of all the beauty that is all around you to fill
+								your spirit with pleasure, then life will become a dry and heavy
+								existence for you to endure.
 							</p>
-							<p className={styles.description}>
+							{/* <p className={styles.description}>
 								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
 								diam nonum my nibh euismod tincidunt ut laoreet dolore magna
 								aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
 								nostrud exerci tation ullamcorper susci pit lobortis nisl ut
 								aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
 								in hendrerit in vulputate velit esse molestie consequat.
-							</p>
+							</p> */}
 							<br />
 							<br />
 						</div>

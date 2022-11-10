@@ -27,7 +27,9 @@ export default function UpcomingEvents() {
 								alt='Brand logo'
 							/>
 
-							<p className={styles.eventDate}>20 NOV</p>
+							<p className={styles.eventDate}>
+								15 <br /> <span>NOV</span>
+							</p>
 
 							<div className={styles.eventInfo}>
 								<p className={styles.heading}>Event Name Here</p>
@@ -49,6 +51,7 @@ export default function UpcomingEvents() {
 						</Col>
 					))}
 				</Row>
+				{/* <button className={styles.aboutZesButton}>View All Events</button> */}
 			</div>
 		</section>
 	);

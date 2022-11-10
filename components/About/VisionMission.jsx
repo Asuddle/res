@@ -38,12 +38,15 @@ export default function VisionMissionComponent() {
 								ZeS <span>Events Management</span>
 							</p>
 						</div>
-						<p className={styles.description} style={{ paddingRight: '20%' }}>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-							nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-							erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-							tation ullam corper suscipit lobortis nisl ut aliquip ex ea
-							commodo consequat.
+						<p className={styles.description} style={{ paddingRight: '5%' }}>
+							Events of all kinds may find a suitable home at the Zes Beauty
+							Club, which is equipped with several recreational and social
+							amenities. Festivals, camps, and concerts are all good examples.
+							Events Management is dedicated to providing first-rate service to
+							anybody interested in renting a nightclub. We're thrilled to show
+							you around our beautiful Zes club, and we'll do all in our power
+							to make planning and scheduling your event as simple and
+							stress-free as possible.
 						</p>
 						<br />
 						<button>Enquire Now</button>

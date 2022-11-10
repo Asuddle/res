@@ -20,6 +20,7 @@ export default function EventManagementSolutions() {
 					<Image
 						src='/event-mangement.jpg'
 						width={'100%'}
+						alt='dsa'
 						height='80%'
 						layout='responsive'
 					/>
@@ -32,19 +33,15 @@ export default function EventManagementSolutions() {
 						</p>
 						<br />
 						<p className={styles.description}>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-							nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-							erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-							tation ullam corper suscipit lobortis nisl ut aliquip ex ea
-							commodo consequat. Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-						</p>
-						<p className={styles.description}>
-							corrupti dolore illum doloremque hic dignissimos explicabo?
-							Voluptates incidunt expedita hic. Lorem, ipsum dolor sit amet
-							consectetur adipisicing elit. Totam voluptatibus veniam impedit
-							officia obcaecati atque soluta eum magni? Dicta ab culpa nesciunt
-							at saepe pariatur dolorem cupiditate! Vitae, veritatis possimus!
+							The Zes Beauty Club is home to a number of different party and
+							athletic facilities, all of which are available for rental for a
+							range of different events, including weddings, camps, and
+							concerts. People who are interested in using the club's facilities
+							may anticipate receiving high-quality support from the department
+							of Events Management. We will do everything in our ability to make
+							the process of organising, organising, and booking your event as
+							simple as possible, and we are delighted to take you on a tour of
+							the beautiful facilities that we have available at our Zes club.
 						</p>
 					</div>
 				</Col>

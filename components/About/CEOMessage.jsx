@@ -30,18 +30,17 @@ export default function CEOMessage() {
 						<div className={styles.ceoMessage}>
 							<p className={styles.heading}>Message from CEO</p>
 							<p className={styles.description}>
-								Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed
-								diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-								aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-								nostrud exerci tation ullam corper suscipit lobortis nisl ut
-								aliquip ex ea commodo consequat.
-								<br />
-								<br />
-								Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed
-								diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-								aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-								nostrud exerci tation ullam corper suscipit lobortis nisl ut
-								aliquip ex ea commodo consequat.
+								CEO and inventor Zuyyana Zaidi has been busy with the launching
+								of Feed Your Beauty and a major Zes beauty club project. There's
+								a lot of blood and guts to be spilled, and we can't wait to tell
+								you about it. In the meanwhile, we recommend that you join the
+								social scene at the Zes Club. Please invite your closest female
+								friends, sisters, mothers, roommates, coworkers, and anyone else
+								you think might enjoy hearing our message to the campaign's
+								beauty club and parties by forwarding this email to them. Those
+								women and girls who know and appreciate their own worth and
+								beauty are invited to find out more about the Zes Beauty Club
+								and our forthcoming events.
 							</p>
 						</div>
 					</Col>
