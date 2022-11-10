@@ -30,7 +30,7 @@ export default function KFCPage() {
 							</div>
 							<Image
 								key={item}
-								src={`/PG-3/Deal-${idx + 1}.JPG`}
+								src={`/PG-3/Deal-${idx + 1}.jpg`}
 								width='557px'
 								height='262px'
 								alt='kfc'
