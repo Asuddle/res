@@ -17,7 +17,8 @@
 			color: $white-shade;
 			z-index: 9999999999999;
 			left: 9%;
-			@include body-medium-2;
+			@include caption-heading;
+			font-weight: bold;
 			font-size: 22px !important;
 			bottom: 0%;
 		}
@@ -33,7 +34,7 @@
 				width: 221px;
 				height: 221px;
 				background-color: $orange-shade;
-				opacity: 0.8;
+				opacity: 0.7;
 				border-radius: 24px;
 			}
 		}
@@ -42,7 +43,5 @@
 		position: relative;
 		filter: brightness(0.45);
 		cursor: pointer;
-		&:hover {
-		}
 	}
 }
