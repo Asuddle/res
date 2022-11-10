@@ -18,6 +18,7 @@ export default function InterestsCategories() {
 								height='221px'
 								alt='accessories'
 							/>
+							<div></div>
 						</div>
 					</Col>
 					<Col md={4} className='text-center'>
@@ -29,6 +30,7 @@ export default function InterestsCategories() {
 								height='221px'
 								alt='accessories'
 							/>
+							<div></div>
 						</div>
 					</Col>
 					<Col md={4} className='text-center'>
@@ -40,6 +42,7 @@ export default function InterestsCategories() {
 								height='221px'
 								alt='accessories'
 							/>
+							<div></div>
 						</div>
 					</Col>
 				</Row>
@@ -57,6 +60,7 @@ export default function InterestsCategories() {
 								height='221px'
 								alt='accessories'
 							/>
+							<div></div>
 						</div>
 					</Col>
 					<Col md={4} className='text-center'>
@@ -68,6 +72,7 @@ export default function InterestsCategories() {
 								height='221px'
 								alt='accessories'
 							/>
+							<div></div>
 						</div>
 					</Col>
 					<Col md={2}></Col>
