@@ -10,7 +10,7 @@ export default function FieldCreator({ item, col = 4 }) {
 		return (
 			<Col md={col}>
 				<FormGroup className={styles.formGroup}>
-					<Label>{item.label}</Label>
+					<Label className={styles.inputLabel}>{item.label}</Label>
 					<Input placeholder={item.label} className={styles.textField} />
 				</FormGroup>
 			</Col>
