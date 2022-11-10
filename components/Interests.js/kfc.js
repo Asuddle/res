@@ -13,6 +13,7 @@ const burgerArr = [
 	{ name: 'King Burger', price: '$11.00' },
 ];
 export default function KFCPage() {
+	console.log('here');
 	return (
 		<ContainerComponent container='mediumContainer'>
 			<div className={styles.restaurantPage}>
@@ -29,7 +30,7 @@ export default function KFCPage() {
 							</div>
 							<Image
 								key={item}
-								src={`/PG3/Deal-${idx + 1}.JPG`}
+								src={`/PG-3/Deal-${idx + 1}.JPG`}
 								width='557px'
 								height='262px'
 								alt='kfc'
