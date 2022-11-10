@@ -33,11 +33,11 @@ function Header({
 					<p
 						className={styles.totalMember}
 						data-aos='fade-up-left'
-						data-aos-delay='800'
+						data-aos-delay='500'
 					>
 						{member}
 					</p>
-					<p className={styles.member} data-aos='fade-up' data-aos-delay='800'>
+					<p className={styles.member} data-aos='fade-up' data-aos-delay='500'>
 						{members}
 					</p>
 				</Col>

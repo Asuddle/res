@@ -1,7 +1,5 @@
 import { Col, FormGroup, Input, Label, Row } from 'reactstrap';
 
-import { INTERNALS } from 'next/dist/server/web/spec-extension/request';
-import Select from 'react-select';
 import { SelectField } from './select';
 import styles from '../../styles/Register.module.scss';
 

@@ -17,8 +17,20 @@ const customStyles = {
 		marginRight: '6px',
 	}),
 };
+const defaultOptions = [
+	{
+		value: 'ocean',
+		label: 'Ocean',
+		color: '#00B8D9',
+	},
+	{
+		value: 'blue',
+		label: 'Blue',
+		color: '#0052CC',
+	},
+];
 
-export const SelectField = () => {
+export const SelectField = ({ options = defaultOptions }) => {
 	return (
 		<Select
 			styles={customStyles}
@@ -28,18 +40,7 @@ export const SelectField = () => {
 			}}
 			placeholder={<div className={styles.placeholder}>Select category</div>}
 			name='color'
-			options={[
-				{
-					value: 'ocean',
-					label: 'Ocean',
-					color: '#00B8D9',
-				},
-				{
-					value: 'blue',
-					label: 'Blue',
-					color: '#0052CC',
-				},
-			]}
+			options={options}
 		/>
 	);
 };
