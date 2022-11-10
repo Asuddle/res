@@ -29,15 +29,17 @@ function TestimonialComponent() {
 			<div className={styles.testimonialWrapper}>
 				<Slider {...settings}>
 					{[1, 2, 3].map((item, idx) => (
-						<div key={item} className={styles.imageWrapper}>
+						<div key={item} className={styles.testimonialImageWrapper}>
 							<Image
 								src={`/components/Testimonial-BG.jpg`}
-								alt='testimonial1'
-								// layout='responsive'
-								width='1100px'
-								height='410px'
+								width='1080px'
+								height='450px'
+								// layout='fill'
+								layout='responsive'
+								// objectFit='contain'
+								alt='pro'
+								className='img-responsive'
 							/>
-
 							<div className={styles.testimonialText}>
 								<p className={styles.description}>
 									orem ipsum dolor sit amet, consectetuer adipiscing elit, sed

@@ -90,24 +90,61 @@
 .testimonialWrapper {
 	text-align: center;
 	position: relative;
-	svg {
-		width: 150px;
-		height: 150px;
-		/* top: 20px; */
-		position: absolute;
-		color: $white-shade !important;
-		left: 227px !important;
-		top: -87px;
-		opacity: 0.2;
-		stroke: white;
+	margin: 0px 12px !important;
+	height: 500px !important;
+
+	.testimonialImageWrapper {
+		justify-content: center !important;
+		align-items: center !important;
+		display: block !important;
+		height: 450px;
+		text-align: center;
+		position: relative;
+		display: block;
+		// div {
+		// 	width: 100%;
+		// 	height: 500px;
+		// }
+		// img {
+		// 	width: 100%;
+		// 	height: 450px;
+		// }
+		// background: black;
+	}
+
+	// svg {
+	// 	width: 150px;
+	// 	height: 150px;
+	// 	/* top: 20px; */
+	// 	position: absolute;
+	// 	color: $white-shade !important;
+	// 	left: calc(50% - 75px) !important;
+	// 	top: -87px;
+	// 	opacity: 0.2;
+	// 	stroke: white;
+	// }
+	// background-image: url('/components/Testimonial-BG.jpg');
+	img {
+		width: 100%;
+		height: 450px;
 	}
 	.testimonialText {
 		color: white;
-		position: absolute;
-		width: 600px;
-		top: 150px;
-		margin-left: 4%;
+		position: absolute !important;
+		text-align: center;
+		max-width: 500px;
+		top: calc(50% - 54px);
+		// top: 150px;
+		@media screen and (max-width: 900px) {
+			max-width: 400px;
+			top: calc(50% - 80px);
+		}
+		// margin-left: 340px !important;
 		.description {
+			@media screen and (max-width: 900px) {
+				font-size: 10px !important;
+				margin-bottom: 2px !important;
+			}
 			@include body-medium-para;
 		}
 		.name {
@@ -115,6 +152,10 @@
 			color: $orange-shade !important;
 			margin-top: 24px !important;
 			margin-bottom: 4px !important;
+			@media screen and (max-width: 900px) {
+				margin-top: 6px !important;
+				margin-bottom: 4px !important;
+			}
 		}
 		.ceoFounder {
 			@include body-Regular16;

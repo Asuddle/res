@@ -20,7 +20,7 @@ export default function UpcomingEvents() {
 				/>
 				<Row className={styles.eventImage} data-aos='fade-up'>
 					{[1, 2, 3].map((item) => (
-						<Col key={item} className={styles.imageWrapper}>
+						<Col key={item} xs={12} sm={12} className={styles.imageWrapper}>
 							<Image
 								src={`/service-${item}.jpg`}
 								layout='fill'

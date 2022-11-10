@@ -26,7 +26,6 @@ function Example(args) {
 	const router = useRouter();
 
 	useEffect(() => {
-		console.log('useEffect fired!', { asPath: router.asPath });
 		setActiveNav(router.asPath);
 	}, [router.asPath]);
 
@@ -70,7 +69,9 @@ function Example(args) {
 								</li>
 							))}
 							<li className='nav-item'>
-								<button className={styles.becomeMember}>Become Member</button>
+								<Link href='/register' className={styles.becomeMember}>
+									Become Member
+								</Link>
 							</li>
 							<li className='nav-item'>
 								<FontAwesomeIcon icon={faCircleUser} />

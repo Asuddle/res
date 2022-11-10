@@ -103,7 +103,7 @@ export default function Footer() {
 									</div>
 								))}
 							</Col>
-							<Col lg={4} md={6}>
+							<Col lg={4} md={6} xs={6}>
 								<p className={styles.footerHeading}>ZeS Gallery</p>
 
 								<Row noGutters>
