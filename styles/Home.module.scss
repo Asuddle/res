@@ -575,12 +575,23 @@
 		@include nav-link;
 		background: $black-shade;
 		border: 1px solid $white-shade;
-		margin: 0px 12px;
+		border-radius: 0px !important;
+		margin: -2px 12px;
+		padding: 3px 10px;
 		&:hover {
 			border: 1px solid $orange-shade;
 			color: $orange-shade;
 		}
 	}
+	.activeBecomeMember {
+		@include nav-link;
+		border-radius: 0px !important;
+		background: $orange-shade !important;
+		color: $white-shade !important;
+		margin: -2px 12px;
+		padding: 3px 10px;
+	}
+
 	svg {
 		margin: 0px 12px;
 		height: 24px;

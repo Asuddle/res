@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+import { Button } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -28,6 +29,10 @@ function Example(args) {
 	useEffect(() => {
 		setActiveNav(router.asPath);
 	}, [router.asPath]);
+
+	const handleRegister = () => {
+		router.push('/register');
+	};
 
 	return (
 		<div className={styles.container}>
@@ -68,10 +73,17 @@ function Example(args) {
 									<Link href={item.href}>{item.name}</Link>
 								</li>
 							))}
-							<li className='nav-item'>
-								<Link href='/register' className={styles.becomeMember}>
+							<li>
+								<Button
+									onClick={handleRegister}
+									className={
+										activeNav == '/register'
+											? styles.activeBecomeMember
+											: styles.becomeMember
+									}
+								>
 									Become Member
-								</Link>
+								</Button>
 							</li>
 							<li className='nav-item'>
 								<FontAwesomeIcon icon={faCircleUser} />
