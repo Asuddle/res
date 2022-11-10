@@ -31,7 +31,7 @@ function AboutPage() {
 			<Header title='About Us' member='' members='' />
 			<WhoWeAre />
 			<VisionMissionComponent />
-			<CEOMessage />
+			{/* <CEOMessage /> */}
 			<FounderMessage />
 			<ReadyBanner />
 			<GoogleMap />
