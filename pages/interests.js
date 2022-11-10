@@ -8,6 +8,8 @@ import Footer from '../components/Footer';
 import GoogleMap from '../components/Map';
 import Head from 'next/head';
 import Header from '../components/Header';
+import HeadingComponent from '../components/Heading';
+import InterestsCategories from '../components/Interests.js';
 
 export default function Interests() {
 	return (
@@ -18,6 +20,17 @@ export default function Interests() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Header title='Interests' member='' members='' />
+			<br />
+			<br />
+
+			<HeadingComponent
+				heading='Enjoy Promotions'
+				subHeading='Lets'
+				subBoldHeading='Choose your Interests'
+			/>
+			<br />
+			<br />
+			<InterestsCategories />
 			<GoogleMap />
 			<Footer />
 		</div>
