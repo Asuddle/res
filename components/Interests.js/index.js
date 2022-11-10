@@ -4,13 +4,13 @@ import ContainerComponent from '../container';
 import Image from 'next/image';
 import styles from '../../styles/Interest.module.scss';
 
-export default function InterestsCategories() {
+export default function InterestsCategories({ handleFood }) {
 	return (
 		<ContainerComponent>
 			<div className={styles.interestCategoriesWrapper}>
 				<Row>
 					<Col md={4} className='text-center'>
-						<div className={styles.overlay}>
+						<div className={styles.overlay} onClick={handleFood}>
 							<p>Food</p>
 							<Image
 								src='/PG1/Food.png'
@@ -22,7 +22,7 @@ export default function InterestsCategories() {
 						</div>
 					</Col>
 					<Col md={4} className='text-center'>
-						<div className={styles.overlay}>
+						<div className={styles.overlay} onClick={handleFood}>
 							<p>Sports</p>
 							<Image
 								src='/PG1/Sports.png'
@@ -34,7 +34,7 @@ export default function InterestsCategories() {
 						</div>
 					</Col>
 					<Col md={4} className='text-center'>
-						<div className={styles.overlay}>
+						<div className={styles.overlay} onClick={handleFood}>
 							<p>Accessories</p>
 							<Image
 								src='/PG1/Accessories.png'
@@ -52,7 +52,7 @@ export default function InterestsCategories() {
 				<Row>
 					<Col md={2}></Col>
 					<Col md={4} className='text-center'>
-						<div className={styles.overlay}>
+						<div className={styles.overlay} onClick={handleFood}>
 							<p>Makeup</p>
 							<Image
 								src='/PG1/Makeup.png'
@@ -63,7 +63,7 @@ export default function InterestsCategories() {
 							<div></div>
 						</div>
 					</Col>
-					<Col md={4} className='text-center'>
+					<Col md={4} className='text-center' onClick={handleFood}>
 						<div className={styles.overlay}>
 							<p>Fashion</p>
 							<Image

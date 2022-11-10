@@ -45,3 +45,49 @@
 		cursor: pointer;
 	}
 }
+
+.restaurantPage {
+	text-align: center;
+	.imageWrapper {
+		position: relative;
+		max-height: 272px !important;
+		max-width: 567px !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.dataWrapper {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 99999;
+		color: $white-shade !important;
+		right: 26%;
+		top: 27%;
+		.burgerName {
+			color: white;
+			@include body-bold;
+		}
+		.price {
+			@include caption-heading;
+			background-image: $background-shade-2;
+			background-image: $background-shade-1;
+			// background: -webkit-linear-gradient(#eee, #333);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		.scanButton {
+			background-image: linear-gradient(90deg, #d4175c 0%, #fda700 100%);
+			width: 180px;
+			height: 44px;
+			color: white;
+			@include body-medium-para;
+			border: none;
+			// padding: 16px !important;
+			border-radius: 49px;
+			margin-bottom: 24px !important;
+			&:hover {
+				box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+			}
+		}
+	}
+}
