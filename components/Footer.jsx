@@ -103,12 +103,11 @@ export default function Footer() {
 									</div>
 								))}
 							</Col>
-							<Col lg={4} md={6} xs={6}>
+							<Col xs={12} lg={4} md={12}>
 								<p className={styles.footerHeading}>ZeS Gallery</p>
-
 								<Row noGutters>
 									{galleryImages.map((item) => (
-										<Col sm={12} md={6} lg={4} key={item.largeImage}>
+										<Col xs={6} sm={4} md={4} lg={4} key={item.largeImage}>
 											<ProjectImageComponent
 												key={item.largeImage}
 												title={item.title}

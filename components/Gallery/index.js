@@ -24,8 +24,6 @@ export default function GalleryMainComponent() {
 	return (
 		<div className={styles.galleryWrapper}>
 			<ContainerComponent>
-				<br />
-				<br />
 				<HeadingComponent
 					heading='Gallery'
 					subBoldHeading='Unforgetable Times'

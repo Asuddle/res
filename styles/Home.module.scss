@@ -28,6 +28,9 @@
 	margin-right: auto !important;
 	margin-left: auto !important;
 }
+.burgerButton {
+	display: none !important;
+}
 .smallContainer {
 	max-width: 1080px !important;
 	// padding-right: var(--bs-gutter-x, 0.75rem);
@@ -229,18 +232,18 @@
 
 .headingWrapper {
 	text-align: center;
-	padding-top: 80px !important;
+	padding-top: 120px !important;
 	.heading {
 		@include module-heading;
 	}
 	.subHeading {
-		margin-top: 12px;
+		margin-top: 24px;
 		@include module-main-heading;
 		span {
 			font-weight: bold;
 		}
 	}
-	padding-bottom: 48px !important;
+	padding-bottom: 64px !important;
 }
 
 .projectItem {
