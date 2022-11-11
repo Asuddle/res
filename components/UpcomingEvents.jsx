@@ -9,7 +9,6 @@ export default function UpcomingEvents() {
 	return (
 		<section
 			className='space-ptb bg-dark-half-md'
-			style={{ padding: '80px 0px' }}
 			// data-aos='fade-up'
 		>
 			<div className='container'>
@@ -51,6 +50,9 @@ export default function UpcomingEvents() {
 						</Col>
 					))}
 				</Row>
+				<br />
+				<br />
+				<br />
 				{/* <button className={styles.aboutZesButton}>View All Events</button> */}
 			</div>
 		</section>

@@ -1,6 +1,19 @@
 import { Col, Row } from 'reactstrap';
+import {
+	faFacebook,
+	faFacebookF,
+	faInstagram,
+	faLinkedinIn,
+	faSnapchat,
+	faSnapchatGhost,
+	faSquareSnapchat,
+	faTwitter,
+	faWhatsapp,
+	faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
 
 import ContainerComponent from '../container';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import styles from '../../styles/About.module.scss';
 
@@ -18,7 +31,14 @@ export default function FounderMessage() {
 								style={{ borderRadius: '14px' }}
 								alt='founder'
 							/>
-							<div className={styles.socialMedia}></div>
+							<div className={styles.socialMedia}>
+								<div style={{ textAlign: 'center', padding: '17px 0px' }}>
+									<FontAwesomeIcon icon={faFacebookF} />
+									<FontAwesomeIcon icon={faInstagram} />
+									<FontAwesomeIcon icon={faTwitter} />
+									<FontAwesomeIcon icon={faLinkedinIn} />
+								</div>
+							</div>
 						</Col>
 						<Col md={6}>
 							<p className={styles.founderHeading}>Zuyyana Zaidi</p>

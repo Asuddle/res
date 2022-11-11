@@ -20,9 +20,6 @@ export default function Register() {
 					<link rel='icon' href='/favicon.ico' />
 				</Head>
 				<Header title='Register' member='' members='' />
-				<br />
-				<br />
-				<br />
 				<HeadingComponent
 					heading='BECOME A MEMBER'
 					subHeading='Let’s'

@@ -53,38 +53,6 @@ export default function ServiceComponent() {
 			name: 'Service',
 			src: '/project/01.jpg',
 		},
-		// {
-		// 	name: 'Service',
-		// 	src: '/project/01.jpg',
-		// },
-		// {
-		// 	name: 'Service',
-		// 	src: '/project/01.jpg',
-		// },
-		// {
-		// 	name: 'Service',
-		// 	src: '/project/01.jpg',
-		// },
-		// {
-		// 	name: 'Service',
-		// 	src: '/project/01.jpg',
-		// },
-		// {
-		// 	name: 'Service',
-		// 	src: '/project/01.jpg',
-		// },
-		// {
-		// 	name: 'Service',
-		// 	src: '/project/01.jpg',
-		// },
-		// {
-		// 	name: 'Service',
-		// 	src: '/project/01.jpg',
-		// },
-		// {
-		// 	name: 'Service',
-		// 	src: '/project/01.jpg',
-		// },
 	];
 
 	return (
@@ -93,9 +61,6 @@ export default function ServiceComponent() {
 			data-aos='fade-right'
 			data-aos-delay='500'
 		>
-			<br />
-			<br />
-			<br />
 			<div className={styles.container}>
 				<HeadingComponent
 					heading='Our Services'

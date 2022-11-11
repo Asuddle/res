@@ -25,10 +25,6 @@ export default function WhyZes() {
 			<EventManagementSolutions />
 			<ClientSatisfaction />
 			<ReadyBanner />
-			<br />
-			<br />
-			<br />
-			<br />
 			<TestimonialComponent />
 			<GoogleMap />
 			<Footer />

@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'reactstrap';
 import HeadingComponent from './Heading';
 import Image from 'next/image';
 import { ProjectImageComponent } from './Image';
+import TabsComponent from './tabs';
 import styles from '../styles/Home.module.scss';
 
 export default function ProjectsComponent() {
@@ -41,9 +42,6 @@ export default function ProjectsComponent() {
 
 	return (
 		<div className={styles.projectWrapper} data-aos='flip-left'>
-			<br />
-			<br />
-			<br />
 			<div className={styles.container}>
 				<HeadingComponent
 					heading='Gallery'
@@ -51,6 +49,9 @@ export default function ProjectsComponent() {
 					subBoldHeading='Unforgetable Times'
 				/>
 			</div>
+			<TabsComponent />
+			<br />
+			<br />
 			<Row noGutters>
 				{galleryImages.map((item) => (
 					<Col sm={12} md={6} lg={4} key={item.largeImage}>
@@ -63,6 +64,7 @@ export default function ProjectsComponent() {
 					</Col>
 				))}
 			</Row>
+			<button className={styles.viewAllGalleryBtn}>View All Gallery</button>
 		</div>
 	);
 }

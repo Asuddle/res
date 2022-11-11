@@ -63,7 +63,6 @@ function TestimonialComponent() {
 				</Slider>
 				<br />
 				<br />
-				<br />
 			</div>
 		</div>
 	);

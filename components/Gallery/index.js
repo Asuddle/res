@@ -66,8 +66,8 @@ export default function GalleryMainComponent() {
 								</div>
 							</div>
 							<br />
-							<br />
-							<br />
+							{/* <br />
+							<br /> */}
 						</Col>
 					))}
 				</Row>
