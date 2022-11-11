@@ -19,7 +19,7 @@ body {
 	font-family: 'Mistral';
 	width: 100% !important;
 	height: 100%;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 
 a {
@@ -76,8 +76,9 @@ a {
 	display: none;
 	padding: 5px !important;
 }
+*/
 
-@media only screen and (max-width: 991px) {
+/* @media only screen and (max-width: 991px) {
 	#react-burger-menu-btn {
 		display: block !important;
 	}
