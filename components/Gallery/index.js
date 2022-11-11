@@ -34,7 +34,7 @@ export default function GalleryMainComponent() {
 				<br />
 				<Row className='text-center'>
 					{[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, idx) => (
-						<Col key={item} lg={4} md={6} sm={6} xs={12} data-aos='fade-up'>
+						<Col key={item} lg={4} md={6} sm={6} xs={6} data-aos='fade-up'>
 							<div className={styles.cardWrapper}>
 								<Image
 									className='img-fluid'

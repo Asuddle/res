@@ -18,6 +18,8 @@ body {
 	margin: 0;
 	font-family: 'Mistral';
 	width: 100% !important;
+	height: 100%;
+	overflow-x: hidden;
 }
 
 a {
@@ -38,10 +40,52 @@ a {
 		background: black;
 	}
 }
-
-section {
-	/* padding: 80px 0px; */
+#react-burger-menu-btn {
+	display: none;
+	position: absolute !important;
+	left: 0px !important;
+	top: 0px !important;
+	z-index: 1 !important;
+	width: 40px !important;
+	height: 40px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	border: none !important;
+	font-size: 0px !important;
+	background: white !important;
+	cursor: pointer !important;
+	right: 20% !important;
+	top: 9% !important;
+	margin-top: 24px !important;
+	left: 87% !important;
+	border-radius: 6px !important;
 }
+.bm-burger-button {
+	position: relative;
+}
+
+.bm-burger-button svg {
+	width: 40px !important;
+	height: 40px !important;
+	position: absolute;
+	right: 20% !important;
+	top: 9% !important;
+	left: 87% !important;
+	z-index: 1;
+	margin-top: 24px !important;
+	display: none;
+	padding: 5px !important;
+}
+
+@media only screen and (max-width: 991px) {
+	#react-burger-menu-btn {
+		display: block !important;
+	}
+	.bm-burger-button svg {
+		display: block !important;
+	}
+}
+
 /* Grid Style 01 */
 .category-grid-style-01 {
 	display: -webkit-box;

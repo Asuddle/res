@@ -40,8 +40,8 @@ function Example() {
 	console.log('MenuOpen', menuOpen);
 	return (
 		<>
+			<BurgerMenu />
 			<div className={styles.container}>
-				{/* <BurgerMenu /> */}
 				<div className={styles.navigationWrapper}>
 					<nav className='navbar navbar-expand-lg'>
 						<Image

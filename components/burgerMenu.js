@@ -1,3 +1,6 @@
+import { faBars, faBurger } from '@fortawesome/free-solid-svg-icons';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 import { slide as Menu } from 'react-burger-menu';
 import styles from '../styles/Home.module.scss';
@@ -40,12 +43,22 @@ export default function BurgerMenu({ props }) {
 				<span class='navbar-toggler-icon'></span>
 			</button> */}
 
-			<Menu isOpen={menuOpen} onStateChange={(state) => handleMenuOpen(state)}>
-				{navArr.map((item) => (
-					<Link key={item.href} className='menu-item' href={item.href}>
-						{item.name}
-					</Link>
-				))}
+			<Menu
+				customBurgerIcon={
+					<FontAwesomeIcon onClick={() => setMenuOpen(true)} icon={faBars} />
+				}
+				isOpen={menuOpen}
+				onStateChange={(state) => handleMenuOpen(state)}
+			>
+				<div className={styles.burgerMenuWrapper}>
+					{navArr.map((item) => (
+						<div key={item.href}>
+							<Link key={item.href} className='menu-item' href={item.href}>
+								{item.name}
+							</Link>
+						</div>
+					))}
+				</div>
 			</Menu>
 		</>
 	);
