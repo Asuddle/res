@@ -38,6 +38,10 @@ a {
 		background: black;
 	}
 }
+
+section {
+	padding: 80px 0px;
+}
 /* Grid Style 01 */
 .category-grid-style-01 {
 	display: -webkit-box;

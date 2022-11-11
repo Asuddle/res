@@ -2,7 +2,7 @@ import styles from '../styles/Home.module.scss';
 
 export default function PromotionBanner() {
 	return (
-		<section className={styles.readyBannerWrapper}>
+		<div className={styles.readyBannerWrapper}>
 			<div
 				className='container-fluid facts my-5 py-5 bg-gradient'
 				// style='text-align: center;color: white !important;'
@@ -18,6 +18,6 @@ export default function PromotionBanner() {
 				<br />
 				<button className='book-now-btn'>BOOK NOW!</button>
 			</div>
-		</section>
+		</div>
 	);
 }

@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.scss';
 
 function ReadyBanner() {
 	return (
-		<section className={styles.readyBannerWrapper}>
+		<div className={styles.readyBannerWrapper}>
 			{/* <Canvas options={sample1} /> */}
 
 			<div className={styles.container}>
@@ -44,7 +44,7 @@ function ReadyBanner() {
 					</Row>
 				</div>
 			</div>
-		</section>
+		</div>
 	);
 }
 

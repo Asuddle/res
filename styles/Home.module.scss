@@ -173,8 +173,12 @@
 }
 
 .readyBannerWrapper {
-	background-image: $background-shade-2;
-	background-image: $background-shade-1;
+	background-image: url('/components/Promotion-BG.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+	// background-image: $background-shade-2;
+	// background-image: $background-shade-1;
 	text-align: center;
 	color: $white-shade;
 	.canvas {
@@ -478,9 +482,13 @@
 	}
 }
 .bannerWrapper {
-	background-image: url('/banner.jpg');
-	background-position: center;
+	background-image: url('/components/Banner.jpg');
 	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+
+	// background-position: center;
+	// background-repeat: no-repeat;
 	height: 800px;
 	width: 100%;
 	text-align: center;
