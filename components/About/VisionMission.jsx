@@ -43,9 +43,9 @@ export default function VisionMissionComponent() {
 							Club, which is equipped with several recreational and social
 							amenities. Festivals, camps, and concerts are all good examples.
 							Events Management is dedicated to providing first-rate service to
-							anybody interested in renting a nightclub. We're thrilled to show
-							you around our beautiful Zes club, and we'll do all in our power
-							to make planning and scheduling your event as simple and
+							anybody interested in renting a nightclub. We&#39;re thrilled to
+							show you around our beautiful Zes club, and we&#39;ll do all in
+							our power to make planning and scheduling your event as simple and
 							stress-free as possible.
 						</p>
 						<br />

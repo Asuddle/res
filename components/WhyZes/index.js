@@ -29,13 +29,13 @@ export default function LifeWithWithoutZes() {
 								have their backs, the women who are members of the Zes Beauty
 								Club are able to feel secure enough to express themselves and
 								follow their hobbies without fear of judgment from other club
-								members. This amazing club intends to put the old saying, "Your
-								network is your net worth," into practise by pushing its members
-								to establish tighter relationships with one another. We've all
-								heard the saying, and it's one that we can all attest to having
-								some validity. We have more strength than any other group when
-								we work together. In addition to this, we think of ourselves as
-								belonging to the Zes gender.
+								members. This amazing club intends to put the old saying,
+								&#34;Your network is your net worth&#34; into practise by
+								pushing its members to establish tighter relationships with one
+								another. We&#39;ve all heard the saying, and it&#39;s one that
+								we can all attest to having some validity. We have more strength
+								than any other group when we work together. In addition to this,
+								we think of ourselves as belonging to the Zes gender.
 							</p>
 							<br />
 							<br />

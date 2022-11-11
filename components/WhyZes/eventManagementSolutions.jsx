@@ -36,12 +36,13 @@ export default function EventManagementSolutions() {
 							The Zes Beauty Club is home to a number of different party and
 							athletic facilities, all of which are available for rental for a
 							range of different events, including weddings, camps, and
-							concerts. People who are interested in using the club's facilities
-							may anticipate receiving high-quality support from the department
-							of Events Management. We will do everything in our ability to make
-							the process of organising, organising, and booking your event as
-							simple as possible, and we are delighted to take you on a tour of
-							the beautiful facilities that we have available at our Zes club.
+							concerts. People who are interested in using the club&#39;s
+							facilities may anticipate receiving high-quality support from the
+							department of Events Management. We will do everything in our
+							ability to make the process of organising, organising, and booking
+							your event as simple as possible, and we are delighted to take you
+							on a tour of the beautiful facilities that we have available at
+							our Zes club.
 						</p>
 					</div>
 				</Col>

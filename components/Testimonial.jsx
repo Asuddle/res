@@ -45,14 +45,14 @@ function TestimonialComponent() {
 									Eighty one percent of our clientele have trust in Zes beauty
 									Club as their go-to beauty provider. There is no easy solution
 									or one-size-fits-all strategy for establishing credibility in
-									a professional setting. After all, "strong conviction in the
-									dependability, truth, capability, or power of another person,
-									group, organization, or object" is how the word "trust" is
-									defined in the Oxford English Dictionary. Because
-									dependability serves as the cornerstone around which trust is
-									constructed, it is imperative that your firm make it a top
-									priority to provide outstanding value to its clients at all
-									times.
+									a professional setting. After all, &#34;strong conviction in
+									the dependability, truth, capability, or power of another
+									person, group, organization, or object&#34; is how the word
+									&#34;trust&#34; is defined in the Oxford English Dictionary.
+									Because dependability serves as the cornerstone around which
+									trust is constructed, it is imperative that your firm make it
+									a top priority to provide outstanding value to its clients at
+									all times.
 								</p>
 								<p className={styles.name}>Name here</p>
 								<p className={styles.ceoFounder}>CEO Founder</p>
