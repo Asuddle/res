@@ -1,17 +1,5 @@
-import {
-	faChampagneGlasses,
-	faHandshake,
-	faHatWizard,
-	faLightbulb,
-	faRibbon,
-} from '@fortawesome/free-solid-svg-icons';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Image from 'next/image';
 import WhyZesIcons from './whyZesIcons';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import styles from '../styles/Home.module.scss';
-import { useState } from 'react';
 
 const imageArr = [
 	{ name: 'Friendly Team' },
@@ -21,8 +9,8 @@ const imageArr = [
 	{ name: 'Effective Support' },
 	{ name: 'Brilliant Ideas' },
 ];
+
 function WhyZES() {
-	const [onHover, setOnHover] = useState(false);
 	return (
 		<section
 			className={styles.whyZesWrapper}
