@@ -19,6 +19,7 @@ export default function SubHeader() {
 									src={`/LOGO/ZeS2.png`}
 									width={100}
 									height={100}
+									layout='fixed'
 								/>
 							</Col>
 						))}
