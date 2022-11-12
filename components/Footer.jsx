@@ -73,7 +73,7 @@ export default function Footer() {
 					<div className='container py-5'>
 						<Row>
 							<Col lg={5} md={6} className={styles.footerDescriptionWrapper}>
-								<Image src='/zes2.png' alt='logo' width={100} height={100} />
+								<Image src='/zes2.jpg' alt='logo' width={100} height={100} />
 								<br />
 								<br />
 								<p className={styles.footerDescription}>
