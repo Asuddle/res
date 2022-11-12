@@ -37,7 +37,6 @@ function Example() {
 	const handleMenuOpen = () => {
 		setMenuOpen(!menuOpen);
 	};
-	console.log('MenuOpen', menuOpen);
 	return (
 		<>
 			<BurgerMenu />
