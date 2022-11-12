@@ -81,7 +81,7 @@ export default function RegisterForm() {
 			</CardWrapper>
 			<br />
 			<br />
-			{zesClub == 1 && (
+			{zesClub == 2 && (
 				<Card className={styles.card}>
 					<Row className='row g-3'>
 						<h4>Spouse Details</h4>

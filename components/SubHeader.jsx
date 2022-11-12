@@ -12,9 +12,14 @@ export default function SubHeader() {
 				</Col>
 				<Col xs={9} style={{ marginTop: '12px' }}>
 					<Row>
-						{[1, 2, 3, 4, 5].map((item) => (
+						{[1, 2, 3, 4].map((item) => (
 							<Col key={item}>
-								<Image alt='log' src='/logo.JPG' width={100} height={100} />
+								<Image
+									alt='log'
+									src={`/logos/Zes-${item}.png`}
+									width={100}
+									height={100}
+								/>
 							</Col>
 						))}
 					</Row>

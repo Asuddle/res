@@ -10,23 +10,23 @@ export default function ProjectsComponent() {
 	const galleryImages = [
 		{
 			title: 'Project Title',
-			largeImage: '/service-6.jpg',
-			smallImage: '/service-6.jpg',
+			largeImage: '/home/Gallery1.jpg',
+			smallImage: '/home/Gallery1.jpg',
 		},
 		{
 			title: 'Project Title',
-			largeImage: '/service-2.jpg',
-			smallImage: '/service-2.jpg',
+			largeImage: '/home/Gallery2.jpg',
+			smallImage: '/home/Gallery2.jpg',
 		},
 		{
 			title: 'Project Title',
-			largeImage: '/service-1.jpg',
-			smallImage: '/service-1.jpg',
+			largeImage: '/home/Gallery3.jpg',
+			smallImage: '/home/Gallery3.jpg',
 		},
 		{
 			title: 'Project Title',
-			largeImage: '/service-3.jpg',
-			smallImage: '/service-3.jpg',
+			largeImage: '/home/Gallery4.jpg',
+			smallImage: '/home/Gallery4.jpg',
 		},
 		{
 			title: 'Project Title',

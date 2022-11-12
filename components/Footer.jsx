@@ -31,23 +31,23 @@ export default function Footer() {
 	const galleryImages = [
 		{
 			title: 'Project Title',
-			largeImage: '/service-6.jpg',
-			smallImage: '/service-6.jpg',
+			largeImage: '/home/Gallery1.jpg',
+			smallImage: '/home/Gallery1.jpg',
 		},
 		{
 			title: 'Project Title',
-			largeImage: '/service-2.jpg',
-			smallImage: '/service-2.jpg',
+			largeImage: '/home/Gallery2.jpg',
+			smallImage: '/home/Gallery2.jpg',
 		},
 		{
 			title: 'Project Title',
-			largeImage: '/service-1.jpg',
-			smallImage: '/service-1.jpg',
+			largeImage: '/home/Gallery3.jpg',
+			smallImage: '/home/Gallery3.jpg',
 		},
 		{
 			title: 'Project Title',
-			largeImage: '/service-3.jpg',
-			smallImage: '/service-3.jpg',
+			largeImage: '/home/Gallery4.jpg',
+			smallImage: '/home/Gallery4.jpg',
 		},
 		{
 			title: 'Project Title',
@@ -60,6 +60,7 @@ export default function Footer() {
 			smallImage: '/service-5.jpg',
 		},
 	];
+
 	return (
 		<div>
 			<footer className={styles.footer}>
@@ -72,7 +73,13 @@ export default function Footer() {
 					<div className='container py-5'>
 						<Row>
 							<Col lg={5} md={6} className={styles.footerDescriptionWrapper}>
-								<Image src='/logo.JPG' alt='logo' width={100} height={100} />
+								{/* src='/logos/Zes-2.png' */}
+								<Image
+									src='/logos/Zes-2.png'
+									alt='logo'
+									width={100}
+									height={100}
+								/>
 								<br />
 								<br />
 								<p className={styles.footerDescription}>

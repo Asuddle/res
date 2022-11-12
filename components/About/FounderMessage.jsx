@@ -25,7 +25,7 @@ export default function FounderMessage() {
 					<Row className={styles.internalFounderRow}>
 						<Col md={6} className={styles.founderImage}>
 							<Image
-								src='/founder.jpg'
+								src='/about/Zuyyana-Zaidi.png'
 								width={400}
 								height={400}
 								style={{ borderRadius: '14px' }}

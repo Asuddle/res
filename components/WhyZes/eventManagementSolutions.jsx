@@ -18,7 +18,7 @@ export default function EventManagementSolutions() {
 					<div className={styles.styleDivider}></div>
 
 					<Image
-						src='/event-mangement.jpg'
+						src='/whyzes/Why-ZeS- Sec-2.jpg'
 						width={'100%'}
 						alt='dsa'
 						height='80%'

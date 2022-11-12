@@ -8,10 +8,21 @@ import {
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
+import WhyZesIcons from './whyZesIcons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import styles from '../styles/Home.module.scss';
+import { useState } from 'react';
 
+const imageArr = [
+	{ name: 'Friendly Team' },
+	{ name: 'Perfect Decoration' },
+	{ name: 'Unique Scenario' },
+	{ name: 'Rememberable Time' },
+	{ name: 'Effective Support' },
+	{ name: 'Brilliant Ideas' },
+];
 function WhyZES() {
+	const [onHover, setOnHover] = useState(false);
 	return (
 		<section
 			className={styles.whyZesWrapper}
@@ -44,26 +55,11 @@ function WhyZES() {
 					</div>
 					<div className='col-sm-12 col-md-12 col-lg-8'>
 						<div className='category category-grid-style-01'>
-							<div className='category-item col-sm-12 col-lg-4'>
-								<div className='category-icon'>
-									{/* <FontAwesomeIcon icon={faHandshake} /> */}
-									<Image
-										src='/components/icon1.png'
-										alt='friendly team'
-										width={53}
-										height={53}
-									/>
-									{/* <i className='fa-regular fa-handshake'></i> */}
-								</div>
-								<br />
-								<a href='#' className='category-title'>
-									Friendly Team
-								</a>
-								<p className='category-caption'>
-									lorem picsum ek dsa doijdasdijsad
-								</p>
-							</div>
-							<div className='category-item col-lg-4 col-sm-12'>
+							{imageArr.map((item, idx) => (
+								<WhyZesIcons key={item.name} item={item} index={idx} />
+							))}
+
+							{/* <div className='category-item col-lg-4 col-sm-12'>
 								<div className='category-icon'>
 									<FontAwesomeIcon icon={faRibbon} />
 								</div>
@@ -103,7 +99,7 @@ function WhyZES() {
 								<div className='category-icon'>
 									<FontAwesomeIcon icon={faWhatsapp} />
 
-									{/* <i className='fa-brands fa-whatsapp'></i> */}
+									 <i className='fa-brands fa-whatsapp'></i> 
 								</div>
 								<br />
 								<a href='#' className='category-title'>
@@ -124,7 +120,7 @@ function WhyZES() {
 								<p className='category-caption'>
 									lorem picsum ek dsa doijdasdijsad
 								</p>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>

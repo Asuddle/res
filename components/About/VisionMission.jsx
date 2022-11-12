@@ -17,7 +17,7 @@ export default function VisionMissionComponent() {
 						<div className={styles.horizontalWrapper}></div>
 
 						<Image
-							src='/people.jpg'
+							src='/about/Section-02.jpg'
 							layout='responsive'
 							width={750}
 							alt='people'

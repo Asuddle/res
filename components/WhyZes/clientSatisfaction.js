@@ -31,7 +31,7 @@ export default function ClientSatisfaction() {
 						className={styles.imagePortion}
 					>
 						<Image
-							src='/person.jpg'
+							src='/whyzes/Why-ZeS--Sec-3.jpg'
 							width='100%'
 							height='100%'
 							alt='client'

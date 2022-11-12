@@ -486,7 +486,9 @@
 	}
 }
 .bannerWrapper {
-	background-image: url('/components/Banner.jpg');
+	background-image: url('/home/Banner.jpg');
+
+	// background-image: url('/components/Banner.jpg');
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: cover;
@@ -717,6 +719,25 @@
 	margin-bottom: 24px !important;
 	&:hover {
 		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	}
+}
+
+.iconOverLay {
+	position: relative;
+	width: 53px;
+	height: 53px;
+	margin-left: auto;
+	display: grid;
+	margin-right: auto;
+	// border-radius: 28px;
+	background: $white-shade;
+	div {
+		position: absolute;
+		width: 53px;
+		height: 53px;
+		background-color: $orange-shade;
+		opacity: 0.7;
+		border-radius: 24px;
 	}
 }
 
