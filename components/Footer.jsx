@@ -74,7 +74,7 @@ export default function Footer() {
 						<Row>
 							<Col lg={5} md={6} className={styles.footerDescriptionWrapper}>
 								<Image
-									src='/logo/Zes-2.png'
+									src='/logo/Zes2.png'
 									alt='logo'
 									width={100}
 									height={100}
