@@ -10,19 +10,18 @@ export default function EventManagementSolutions() {
 		<section
 			data-aos='fade-right'
 			data-aos-delay='500'
-			style={{ minHeight: '790px' }}
+			style={{ minHeight: '500px' }}
 		>
 			{/* <ContainerComponent> */}{' '}
 			<Row className={styles.eventManagementSolutionsWrapper}>
-				<Col md={6} style={{ padding: '0px' }} className={styles.image}>
+				<Col style={{ padding: '0px' }} className={styles.image}>
 					<div className={styles.styleDivider}></div>
 
 					<Image
 						src='/whyzes/Why-ZeS- Sec-2.jpg'
-						width={'100%'}
+						width={'664px'}
 						alt='dsa'
-						height='80%'
-						layout='responsive'
+						height='541px'
 					/>
 				</Col>
 				<Col md={6} className={styles.eventManagementData}>
@@ -48,6 +47,10 @@ export default function EventManagementSolutions() {
 				</Col>
 			</Row>
 			{/* </ContainerComponent> */}
+			<br />
+			<br />
+			<br />
+			<br />
 			<br />
 			<br />
 			<br />

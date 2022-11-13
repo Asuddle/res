@@ -11,9 +11,12 @@
 		.styleDivider {
 			position: absolute;
 			border: 2px solid $orange-shade;
-			width: 53%;
-			padding: 18%;
-			margin-top: 2%;
+			width: 711px;
+			height: 461px;
+			// padding: 18%;
+			margin-top: 32px;
+			/* margin-bottom: 400px; */
+			// padding-bottom: 4%;
 		}
 	}
 	// }
@@ -21,13 +24,13 @@
 		margin-left: -5% !important;
 		margin-bottom: -64px !important;
 		background: #f8f8f8;
-		padding-right: 63px !important;
-		width: 55% !important;
+		// padding-right: 63px !important;
+		width: calc(100% - 614px) !important;
 		// margin-top: 64px;
 		background: $light-grey-shade;
 		.dataWrapper {
 			padding: 8% 0px;
-			padding-left: 18%;
+			padding-left: 116px;
 			padding-right: 1%;
 			.heading {
 				margin-top: 48px;
