@@ -20,7 +20,7 @@ function Header({
 }) {
 	return (
 		<div className={styles.bannerWrapper}>
-			<Navigation />
+			{/* <Navigation /> */}
 			<Row className={styles.container}>
 				<Col md={11} className={styles.siteData}>
 					<p

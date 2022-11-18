@@ -40,7 +40,7 @@ function Example() {
 	return (
 		<>
 			<BurgerMenu />
-			<div className={styles.container}>
+			<div className={styles.navContainer}>
 				<div className={styles.navigationWrapper}>
 					<nav className='navbar navbar-expand-lg'>
 						<Image

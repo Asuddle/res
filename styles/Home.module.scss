@@ -20,6 +20,20 @@
 	margin-right: auto !important;
 	margin-left: auto !important;
 }
+.navContainer {
+	max-width: 1280px !important;
+	// padding-right: var(--bs-gutter-x, 0.75rem);
+	// padding-left: var(--bs-gutter-x, 0.75rem);
+	margin-right: auto !important;
+	margin-left: auto !important;
+	position: sticky;
+	margin-bottom: -132px !important;
+	top: 0;
+	z-index: 9999;
+	nav {
+		margin-top: 24px !important;
+	}
+}
 .mediumContainer {
 	max-width: 1140px !important;
 	text-align: center;
