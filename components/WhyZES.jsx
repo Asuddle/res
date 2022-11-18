@@ -46,73 +46,13 @@ function WhyZES() {
 							{imageArr.map((item, idx) => (
 								<WhyZesIcons key={item.name} item={item} index={idx} />
 							))}
-
-							{/* <div className='category-item col-lg-4 col-sm-12'>
-								<div className='category-icon'>
-									<FontAwesomeIcon icon={faRibbon} />
-								</div>
-								<br />
-								<a href='#' className='category-title'>
-									Perfect Decoration
-								</a>
-								<p className='category-caption'>
-									lorem picsum ek dsa doijdasdijsad
-								</p>
-							</div>
-							<div className='category-item col-lg-4 col-sm-12'>
-								<div className='category-icon'>
-									<FontAwesomeIcon icon={faChampagneGlasses} />
-								</div>
-								<br />
-								<a href='#' className='category-title'>
-									Unique Scenario
-								</a>
-								<p className='category-caption'>
-									lorem picsum ek dsa doijdasdijsad
-								</p>
-							</div>
-							<div className='category-item col-lg-4 col-sm-12'>
-								<div className='category-icon'>
-									<FontAwesomeIcon icon={faHatWizard} />
-								</div>
-								<br />
-								<a href='#' className='category-title'>
-									Rememberable Team
-								</a>
-								<p className='category-caption'>
-									lorem picsum ek dsa doijdasdijsad
-								</p>
-							</div>
-							<div className='category-item col-lg-4 col-sm-12'>
-								<div className='category-icon'>
-									<FontAwesomeIcon icon={faWhatsapp} />
-
-									 <i className='fa-brands fa-whatsapp'></i> 
-								</div>
-								<br />
-								<a href='#' className='category-title'>
-									Effective Support
-								</a>
-								<p className='category-caption'>
-									lorem picsum ek dsa doijdasdijsad
-								</p>
-							</div>
-							<div className='category-item col-lg-4 col-sm-12'>
-								<div className='category-icon'>
-									<FontAwesomeIcon icon={faLightbulb} />
-								</div>
-								<br />
-								<a href='#' className='category-title'>
-									Brilliant Ideas
-								</a>
-								<p className='category-caption'>
-									lorem picsum ek dsa doijdasdijsad
-								</p>
-							</div> */}
 						</div>
 					</div>
 				</div>
 			</div>
+			<br />
+			<br />
+			<br />
 			<br />
 			<br />
 			<br />

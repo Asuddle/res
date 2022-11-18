@@ -1,5 +1,4 @@
 import 'aos/dist/aos.css';
-import 'react-image-lightbox/style.css';
 
 import {
 	Button,
@@ -24,7 +23,6 @@ import GalleryModal from './modal';
 import Header from '../Header';
 import HeadingComponent from '../Heading';
 import Image from 'next/image';
-import Lightbox from 'react-image-lightbox';
 import TabsComponent from '../tabs';
 import styles from '../../styles/gallery.module.scss';
 

@@ -22,8 +22,14 @@ import styles from '../styles/Home.module.scss';
 import { useEffect } from 'react';
 
 export default function Home() {
+	const fetchTodos = async () => {
+		const response = await fetch('/api/todos');
+		const data = await response.json();
+		console.log('data here', data);
+	};
 	useEffect(() => {
 		AOS.init();
+		fetchTodos();
 	}, []);
 	// AOS.init({ duration: 1000 });
 

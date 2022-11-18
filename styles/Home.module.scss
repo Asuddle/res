@@ -488,20 +488,14 @@
 .bannerWrapper {
 	background-image: url('/home/Banner.jpg');
 
-	// background-image: url('/components/Banner.jpg');
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: cover;
-
-	// background-position: center;
-	// background-repeat: no-repeat;
 	height: 800px;
-	// width: 100%;
 	text-align: center;
 	padding-top: 24px;
 	.siteData {
 		margin-top: 15% !important;
-		// margin-top: 132px !important;
 	}
 	p {
 		margin: 0px !important;

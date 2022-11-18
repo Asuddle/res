@@ -9,7 +9,6 @@ import {
 } from 'reactstrap';
 
 import Image from 'next/image';
-import Lightbox from 'react-image-lightbox';
 import { useState } from 'react';
 
 export default function GalleryModal({ toggle, data }) {
@@ -23,7 +22,6 @@ export default function GalleryModal({ toggle, data }) {
 		dataArr.push(index + 1);
 		imageGallArr.push(`/Gallery/${data.folder}/Img${index + 1}.jpg`);
 	}
-	console.log(imageGallArr);
 
 	return (
 		<>
@@ -54,7 +52,7 @@ export default function GalleryModal({ toggle, data }) {
 						Cancel
 					</Button>
 				</ModalFooter> */}
-			{data.name && (
+			{/* {data.name && (
 				<Lightbox
 					mainSrc={imageGallArr[photoIndex]}
 					nextSrc={imageGallArr[photoIndex + 1]}
@@ -68,7 +66,7 @@ export default function GalleryModal({ toggle, data }) {
 					}
 					onMoveNextRequest={() => setPhotoIndex(photoIndex + 1)}
 				/>
-			)}
+			)} */}
 			{/* </Modal> */}
 		</>
 	);

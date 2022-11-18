@@ -61,7 +61,7 @@ function WhoWeAre() {
 								width={460}
 								height={500}
 								alt='image-1'
-								src='/about/Section-01-a.jpg'
+								src='/about/aboutimg1.jpg'
 							/>
 							<div className={styles.smallImageWrapper}>
 								<Image
@@ -69,7 +69,7 @@ function WhoWeAre() {
 									width={280}
 									height={280}
 									alt='image-2'
-									src='/about/Section-01-b.jpg'
+									src='/about/aboutimg2.jpg'
 								/>
 							</div>
 						</div>

@@ -44,7 +44,7 @@ function Example() {
 				<div className={styles.navigationWrapper}>
 					<nav className='navbar navbar-expand-lg'>
 						<Image
-							class='navbar-brand'
+							className='navbar-brand'
 							src='/logo.JPG'
 							alt='logo'
 							width={100}
