@@ -1,15 +1,6 @@
 import { Col, Row } from 'reactstrap';
-import {
-	faChampagneGlasses,
-	faHandshake,
-	faHatWizard,
-	faLightbulb,
-	faRibbon,
-} from '@fortawesome/free-solid-svg-icons';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import styles from '../styles/About.module.scss';
 
 function WhoWeAre() {
