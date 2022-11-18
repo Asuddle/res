@@ -3,11 +3,10 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"dev": "node server.js",
+		"dev": "next dev",
 		"build": "next build",
-		"lint": "next lint",
 		"start": "next start",
-		"export": "next build && next export"
+		"lint": "next lint"
 	},
 	"dependencies": {
 		"@flaticon/flaticon-uicons": "^1.7.0",
