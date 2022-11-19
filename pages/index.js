@@ -46,6 +46,10 @@ export default function Home() {
 			<Header />
 			<SubHeader />
 			<UpcomingEvents />
+			<br />
+			<br />
+			<br />
+			<br />
 			<WhyZES />
 			<ReadyBanner />
 			<ServiceComponent />
