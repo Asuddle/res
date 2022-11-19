@@ -23,12 +23,19 @@ export default function UpcomingEvents() {
 					{[1, 2, 3].map((item, idx) => (
 						<Col md={4} key={idx}>
 							<GalleryCard key={idx} item={item} idx={idx} />
+							<br />
+							<br />
+							<br />
+							<br />
 						</Col>
 					))}
 				</Row>
 				<br />
 				<br />
 				<br />
+				<br />
+				<br />
+
 				{/* <button className={styles.aboutZesButton}>View All Events</button> */}
 			</div>
 		</section>
