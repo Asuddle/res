@@ -16,7 +16,7 @@ export default function SubHeader() {
 							<Col key={item}>
 								<Image
 									alt='log'
-									src={`/LOGO/zes${item}.png`}
+									src='/LOGO/zes1.png'
 									width={100}
 									height={100}
 								/>
