@@ -207,3 +207,11 @@ a {
 .category-grid-style-01 .show-more-cat i {
 	margin: 5px auto 0 auto;
 }
+.bm-menu-wrap {
+	margin: 0px !important;
+}
+.bm-item-list {
+	padding: 0px !important;
+	margin: 0px !important;
+	width: 200px;
+}

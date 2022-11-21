@@ -27,7 +27,7 @@ export default function BurgerMenu({ props }) {
 
 	return (
 		<>
-			{/* <button
+			<button
 				class='navbar-toggler'
 				type='button'
 				id='nav-id'
@@ -41,7 +41,7 @@ export default function BurgerMenu({ props }) {
 				onClick={() => setMenuOpen(true)}
 			>
 				<span class='navbar-toggler-icon'></span>
-			</button> */}
+			</button>
 
 			<Menu
 				customBurgerIcon={

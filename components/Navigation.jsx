@@ -39,9 +39,9 @@ function Example() {
 	};
 	return (
 		<>
-			<BurgerMenu />
 			<div className={styles.navContainer}>
 				<div className={styles.navigationWrapper}>
+					{/* <BurgerMenu /> */}
 					<nav className='navbar navbar-expand-lg'>
 						<Image
 							className='navbar-brand'
@@ -87,12 +87,12 @@ function Example() {
 					</nav>
 				</div>
 				{/* <Menu isOpen={menuOpen} onStateChange={handleMenuOpen}>
-				{navArr.map((item) => (
-					<Link key={item.href} className='menu-item' href={item.href}>
-						{item.name}
-					</Link>
-				))}
-			</Menu> */}
+					{navArr.map((item) => (
+						<Link key={item.href} className='menu-item' href={item.href}>
+							{item.name}
+						</Link>
+					))}
+				</Menu> */}
 			</div>
 		</>
 	);

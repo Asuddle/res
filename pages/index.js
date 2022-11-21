@@ -40,7 +40,7 @@ export default function Home() {
 	};
 	useEffect(() => {
 		AOS.init();
-		fetchTodos();
+		// fetchTodos();
 	}, []);
 	// AOS.init({ duration: 1000 });
 

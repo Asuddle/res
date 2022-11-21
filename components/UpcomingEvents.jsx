@@ -31,7 +31,7 @@ export default function UpcomingEvents() {
 	return (
 		<section
 			className='space-ptb bg-dark-half-md'
-			style={{ marginBottom: '120px' }}
+			style={{ marginBottom: '60px' }}
 			// data-aos='fade-up'
 		>
 			<div className='container'>
@@ -42,12 +42,8 @@ export default function UpcomingEvents() {
 				/>
 				<Row className={styles.eventImage} data-aos='fade-up'>
 					{galleryArr.map((item, idx) => (
-						<Col md={4} key={idx}>
+						<Col xs={12} md={4} key={idx}>
 							<GalleryCard key={idx} item={item} idx={idx} />
-							<br />
-							<br />
-							<br />
-							<br />
 						</Col>
 					))}
 				</Row>
@@ -56,7 +52,9 @@ export default function UpcomingEvents() {
 				<br />
 				<br />
 				<br />
-
+				<div class='text-center'>
+					<button className={styles.viewAllGalleryBtn}>View All Events</button>
+				</div>
 				{/* <button className={styles.aboutZesButton}>View All Events</button> */}
 			</div>
 		</section>
