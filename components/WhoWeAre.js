@@ -4,7 +4,6 @@ import Image from 'next/image';
 import styles from '../styles/About.module.scss';
 
 function WhoWeAre() {
-	console.log('here');
 	return (
 		<section
 			className={styles.whoWeAre}
@@ -68,9 +67,6 @@ function WhoWeAre() {
 					</Col>
 				</Row>
 			</div>
-			<br />
-			<br />
-			<br />
 		</section>
 	);
 }

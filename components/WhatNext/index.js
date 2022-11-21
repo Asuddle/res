@@ -9,7 +9,7 @@ import styles from '../../styles/WhatNext.module.scss';
 export default function WhatNextComponent() {
 	return (
 		<div className={styles.galleryWrapper}>
-			<ContainerComponent container='smallContainer'>
+			<ContainerComponent>
 				<br />
 				<br />
 				<HeadingComponent
@@ -18,7 +18,7 @@ export default function WhatNextComponent() {
 					subHeading='Latest'
 				/>
 				<Row className='text-center' style={{ padding: '16px' }}>
-					{[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, idx) => (
+					{[1, 2, 3, 4, 5].map((item, idx) => (
 						<EventCard key={item} item={item} idx={idx} />
 					))}
 				</Row>
