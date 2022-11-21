@@ -45,7 +45,7 @@ function Example() {
 					<nav className='navbar navbar-expand-lg'>
 						<Image
 							className='navbar-brand'
-							src='/logo.JPG'
+							src='/ZeS2-black.JPG'
 							alt='logo'
 							width={100}
 							height={100}
