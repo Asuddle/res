@@ -521,11 +521,32 @@
 		@include heading-sub;
 	}
 }
+.smallBannerWrapper {
+	background-image: url('/home/Banner.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+	height: 650px;
+	text-align: center;
+	padding-top: 24px;
+	.siteData {
+		margin-top: 15% !important;
+	}
+	p {
+		margin: 0px !important;
+	}
+	.weZes {
+		color: $orange-shade;
+		@include heading-main;
+		margin-bottom: 44px !important;
+	}
+}
+
 .socialIcons {
 	position: fixed;
 	z-index: 9999;
 	right: 43px;
-	margin-top: 200px !important;
+	margin-top: 200px;
 	svg {
 		box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
 			rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,

@@ -67,7 +67,7 @@ export default function Home() {
 					<div className={styles.verticalDivider}></div>
 				</div>
 			</div> */}
-			<Header />
+			<Header isSmall={false} />
 
 			<SubHeader />
 			<UpcomingEvents />

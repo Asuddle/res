@@ -17,9 +17,10 @@ function Header({
 	title = 'We Are Zes',
 	member = '2500+',
 	members = 'MEMBERS',
+	isSmall = true,
 }) {
 	return (
-		<div className={styles.bannerWrapper}>
+		<div className={isSmall ? styles.smallBannerWrapper : styles.bannerWrapper}>
 			{/* <Navigation /> */}
 			<Row className={styles.container}>
 				<Col md={11} className={styles.siteData}>
@@ -42,7 +43,10 @@ function Header({
 					</p>
 				</Col>
 				<Col md={1}>
-					<div className={styles.socialIcons}>
+					<div
+						className={styles.socialIcons}
+						style={{ marginTop: isSmall ? '150px' : '200px' }}
+					>
 						<FontAwesomeIcon icon={faFacebookF} />
 						<br />
 						<FontAwesomeIcon icon={faInstagram} />
