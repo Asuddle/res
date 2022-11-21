@@ -52,29 +52,10 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Navigation />
-			{/* <div className='container' style={{ position: 'relative' }}>
-				<div className={styles.socialIcons}>
-					<FontAwesomeIcon icon={faFacebookF} />
-					<br />
-					<FontAwesomeIcon icon={faInstagram} />
-					<br />
-					<FontAwesomeIcon icon={faLinkedinIn} />
-					<br />
-					<FontAwesomeIcon icon={faYoutube} />
-					<br />
-					<FontAwesomeIcon icon={faTwitter} />
-
-					<div className={styles.verticalDivider}></div>
-				</div>
-			</div> */}
 			<Header isSmall={false} />
-
 			<SubHeader />
 			<UpcomingEvents />
-			<br />
-			<br />
-			<br />
-			<br />
+
 			<WhyZES />
 			<ReadyBanner />
 			<ServiceComponent />

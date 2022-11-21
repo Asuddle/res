@@ -36,7 +36,7 @@ function WhyZES() {
 								possimus!
 							</p>
 							<br />
-							<br />
+
 							<button className={styles.aboutZesButton}>ABOUT ZeS</button>
 							<br />
 						</div>
@@ -50,13 +50,6 @@ function WhyZES() {
 					</div>
 				</div>
 			</div>
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
 		</section>
 	);
 }

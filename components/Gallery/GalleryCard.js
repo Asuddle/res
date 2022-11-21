@@ -2,11 +2,12 @@ import { faCalendar, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
+import homeStyles from '../../styles/Home.module.scss';
 import styles from '../../styles/gallery.module.scss';
 
 export default function GalleryCard({ idx, item }) {
 	return (
-		<div className={styles.cardWrapper} onClick={() => getData(item)}>
+		<div className={styles.cardWrapper}>
 			<Image
 				className='img-fluid'
 				src={`/home/Gallery${idx + 1}.jpg`}
@@ -17,7 +18,10 @@ export default function GalleryCard({ idx, item }) {
 				// objectFit='contain'
 			/>
 			<div className={styles.dataWrapper}>
-				<p className={styles.eventName}>{item.name}</p>
+				<p className={styles.eventDate}>
+					<span>1 Dec</span>
+				</p>
+				{/* <p className={styles.eventDate}>{item.name}</p> */}
 				<p className={styles.eventCaption}>
 					lorem ipsum dsad asd asd as das das das d as das d dasd asdsa das das
 					d asd ad as d

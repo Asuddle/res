@@ -165,7 +165,7 @@ a {
 }
 
 .category-grid-style-01 .category-item .category-title {
-	color: #022d62;
+	color: black;
 	font-weight: bold;
 	margin-bottom: 0;
 	font-family: 'Montserrat', sans-serif;
@@ -176,7 +176,7 @@ a {
 }
 
 .category-grid-style-01 .category-item .category-caption {
-	color: #022d62;
+	color: black;
 	font-weight: 500;
 	margin-bottom: 0;
 	position: relative;

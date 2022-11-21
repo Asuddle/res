@@ -11,6 +11,7 @@ export default function UpcomingEvents() {
 	return (
 		<section
 			className='space-ptb bg-dark-half-md'
+			style={{ marginBottom: '120px' }}
 			// data-aos='fade-up'
 		>
 			<div className='container'>
