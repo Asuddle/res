@@ -14,7 +14,12 @@ export default function SubHeader() {
 					<Row>
 						{[1, 2, 3, 4].map((item) => (
 							<Col key={item}>
-								<Image alt='log' src='/ZeS1.jpg' width={100} height={100} />
+								<Image
+									alt='log'
+									src={`/ZeS${item}.jpg`}
+									width={100}
+									height={100}
+								/>
 							</Col>
 						))}
 					</Row>
