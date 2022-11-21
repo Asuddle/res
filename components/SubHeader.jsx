@@ -12,7 +12,7 @@ export default function SubHeader() {
 				</Col>
 				<Col xs={9} style={{ marginTop: '12px' }}>
 					<Row>
-						{[1, 2, 3, 4].map((item) => (
+						{[1, 3, 4, 2].map((item) => (
 							<Col key={item}>
 								<Image
 									alt='log'
