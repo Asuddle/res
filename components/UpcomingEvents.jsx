@@ -7,6 +7,26 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.scss';
 import { useState } from 'react';
 
+const galleryArr = [
+	{
+		name: 'Launch Party',
+		imageCount: 6,
+		date: '14th september 2021',
+		folder: '1',
+	},
+	{
+		name: 'Past life regression therapy',
+		imageCount: 25,
+		date: '22nd march 2022',
+		folder: '2',
+	},
+	{
+		name: 'Second Party',
+		imageCount: 25,
+		date: '16th october 2021',
+		folder: '3',
+	},
+];
 export default function UpcomingEvents() {
 	return (
 		<section
@@ -21,7 +41,7 @@ export default function UpcomingEvents() {
 					subBoldHeading='Awesome Events'
 				/>
 				<Row className={styles.eventImage} data-aos='fade-up'>
-					{[1, 2, 3].map((item, idx) => (
+					{galleryArr.map((item, idx) => (
 						<Col md={4} key={idx}>
 							<GalleryCard key={idx} item={item} idx={idx} />
 							<br />

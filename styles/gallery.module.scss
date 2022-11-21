@@ -42,6 +42,9 @@
 		.eventName {
 			@include caption-boldHeading;
 			margin-bottom: 8px;
+			position: absolute;
+			bottom: 111px;
+			color: white;
 		}
 		.eventCaption {
 			margin: 0px !important;
