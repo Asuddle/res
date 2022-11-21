@@ -1,13 +1,8 @@
-import PropTypes from 'prop-types';
 import React from 'react';
 
-function User(props) {
-	return <div>user</div>;
+export default function User() {
+	return <div>User</div>;
 }
-
-User.propTypes = {};
-
-export default User;
 
 // export const createUser = async (req, res) => {
 // 	try {

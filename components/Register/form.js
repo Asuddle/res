@@ -8,43 +8,55 @@ import styles from '../../styles/Register.module.scss';
 import { useState } from 'react';
 
 export const formField1 = [
-	{ type: 'select', label: 'Title' },
-	{ type: 'text', label: 'First Name' },
-	{ type: 'text', label: 'Middle Name', align: 'right' },
-	{ type: 'text', label: 'Last Name' },
-	{ type: 'text', label: 'Country' },
-	{ type: 'text', label: 'Emirates City', align: 'right' },
-	{ type: 'text', label: 'Nationality' },
-	{ type: 'select', label: 'Profession/Member Type' },
-	{ type: 'text', label: 'Emirates ID', align: 'right' },
+	{ type: 'select', label: 'Title', name: 'title' },
+	{ type: 'text', label: 'First Name', name: 'firstName' },
+	{ type: 'text', label: 'Middle Name', align: 'right', name: 'middleName' },
+	{ type: 'text', label: 'Last Name', name: 'lastName' },
+	{ type: 'text', label: 'Country', name: 'country' },
+	{ type: 'text', label: 'Emirates City', align: 'right', name: 'emirates' },
+	{ type: 'text', label: 'Nationality', name: 'nationality' },
+	{ type: 'select', label: 'Profession/Member Type', name: 'memberType' },
+	{ type: 'text', label: 'Emirates ID', align: 'right', name: 'emiratesID' },
 ];
 
 export const formField2 = [
-	{ type: 'text', label: 'Mobile Number' },
-	{ type: 'text', label: 'Email Address' },
-	{ type: 'text', label: 'Password' },
+	{ type: 'text', label: 'Mobile Number', name: 'mobile' },
+	{ type: 'text', label: 'Email Address', name: 'email' },
+	{ type: 'text', label: 'Password', name: 'password' },
 ];
 
 export const formField3 = [
-	{ type: 'inline-radio', label: 'Do you have your own business' },
-	{ type: 'inline-text', label: 'Industry Sector (If yes)' },
+	{
+		type: 'inline-radio',
+		label: 'Do you have your own business',
+		name: 'haveBusiness',
+	},
+	{
+		type: 'inline-text',
+		label: 'Industry Sector (If yes)',
+		name: 'industrySector',
+	},
 ];
 
 export const formField4 = [
-	{ type: 'select', label: 'Website (if any)' },
-	{ type: 'text', label: 'Hobbies' },
-	{ type: 'select', label: 'Interest' },
-	{ type: 'text', label: 'Height' },
-	{ type: 'text', label: 'Age' },
-	{ type: 'text', label: 'Weight' },
-	{ type: 'textarea', label: 'What makes you feel happy?' },
+	{ type: 'select', label: 'Website (if any)', name: 'website' },
+	{ type: 'text', label: 'Hobbies', name: 'hobbies' },
+	{ type: 'select', label: 'Interest', name: 'interest' },
+	{ type: 'text', label: 'Height', name: 'height' },
+	{ type: 'text', label: 'Age', name: 'age' },
+	{ type: 'text', label: 'Weight', name: 'weight' },
+	{ type: 'textarea', label: 'What makes you feel happy?', name: 'feelHappy' },
 ];
 
 export const formField5 = [
-	{ type: 'text', label: 'Emirates ID' },
-	{ type: 'text', label: 'Profile Photo' },
-	{ type: 'text', label: 'Weight' },
-	{ type: 'textarea', label: 'What are your expextations about ZeS Club?' },
+	// { type: 'text', label: 'Emirates ID' },
+	{ type: 'text', label: 'Profile Photo', name: 'profilePhoto' },
+	// { type: 'text', label: 'Weight', name: 'weight' },
+	{
+		type: 'textarea',
+		label: 'What are your expextations about ZeS Club?',
+		name: 'expectations',
+	},
 ];
 
 export default function RegisterForm() {

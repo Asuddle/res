@@ -3,8 +3,18 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import 'aos/dist/aos.css';
 
+import {
+	faFacebook,
+	faFacebookF,
+	faInstagram,
+	faLinkedinIn,
+	faTwitter,
+	faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
+
 import AOS from 'aos';
 import { Button } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Footer from '../components/Footer';
 import GoogleMap from '../components/Map';
 import Head from 'next/head';
@@ -42,8 +52,23 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Navigation />
-			{/* <main className={styles.main}></main> */}
+			{/* <div className='container' style={{ position: 'relative' }}>
+				<div className={styles.socialIcons}>
+					<FontAwesomeIcon icon={faFacebookF} />
+					<br />
+					<FontAwesomeIcon icon={faInstagram} />
+					<br />
+					<FontAwesomeIcon icon={faLinkedinIn} />
+					<br />
+					<FontAwesomeIcon icon={faYoutube} />
+					<br />
+					<FontAwesomeIcon icon={faTwitter} />
+
+					<div className={styles.verticalDivider}></div>
+				</div>
+			</div> */}
 			<Header />
+
 			<SubHeader />
 			<UpcomingEvents />
 			<br />

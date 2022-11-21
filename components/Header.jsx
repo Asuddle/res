@@ -41,18 +41,19 @@ function Header({
 						{members}
 					</p>
 				</Col>
-				<Col className={styles.socialIcons}>
-					<FontAwesomeIcon icon={faFacebookF} />
-					<br />
-					<FontAwesomeIcon icon={faInstagram} />
-					<br />
-					<FontAwesomeIcon icon={faLinkedinIn} />
-					<br />
-					<FontAwesomeIcon icon={faYoutube} />
-					<br />
-					<FontAwesomeIcon icon={faTwitter} />
-
-					<div className={styles.verticalDivider}></div>
+				<Col md={1}>
+					<div className={styles.socialIcons}>
+						<FontAwesomeIcon icon={faFacebookF} />
+						<br />
+						<FontAwesomeIcon icon={faInstagram} />
+						<br />
+						<FontAwesomeIcon icon={faLinkedinIn} />
+						<br />
+						<FontAwesomeIcon icon={faYoutube} />
+						<br />
+						<FontAwesomeIcon icon={faTwitter} />
+						<div className={styles.verticalDivider}></div>
+					</div>
 				</Col>
 			</Row>
 		</div>
