@@ -39,6 +39,10 @@
 			top: -44px !important;
 			left: 0;
 			text-align: right;
+			@media screen and (max-width: 1000px) {
+				float: left !important;
+				margin-top: 128px !important;
+			}
 		}
 		.image1 {
 			position: relative;
@@ -48,8 +52,9 @@
 		}
 		.smallImageWrapper {
 			position: absolute;
-			bottom: -26%;
+			// bottom: -26%;
 			left: 10%;
+			bottom: -34%;
 		}
 		.image2 {
 			position: absolute;
@@ -66,6 +71,9 @@
 			left: 119px;
 			width: 458px;
 			height: 526px;
+			@media screen and (max-width: 1200px) {
+				width: 389px !important;
+			}
 		}
 	}
 }
@@ -199,6 +207,9 @@
 	background: $light-grey-shade !important;
 	.founderHeading {
 		@include caption-boldHeading;
+		@media screen and (max-width: 750px) {
+			margin-top: 32px !important;
+		}
 	}
 	.founderMessageHeading {
 		color: $orange-shade;
@@ -218,16 +229,19 @@
 		.founderImage {
 			// padding: 65px;
 			position: relative;
+			text-align: center;
 		}
 		.socialMedia {
-			position: absolute;
+			position: relative;
 			// padding: 20px 50px;
 			background: white;
-			width: 300px;
-			height: 60px;
-			bottom: -20px;
-			left: 60px;
+			width: 270px;
 			box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: -32px;
+			z-index: 99999;
+
 			svg {
 				width: 25px !important;
 				height: 25px !important;
@@ -240,6 +254,10 @@
 			.description {
 				@include body-medium-para;
 				padding-right: 48px;
+				@media screen and (max-width: 750px) {
+					padding-right: 0px !important;
+					margin-top: 32px !important;
+				}
 			}
 		}
 	}
