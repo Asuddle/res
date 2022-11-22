@@ -30,16 +30,16 @@ function TestimonialComponent() {
 				<Slider {...settings}>
 					{[1, 2, 3].map((item, idx) => (
 						<div key={item} className={styles.testimonialImageWrapper}>
-							<Image
+							{/* <Image
 								src={`/components/Testimonial-BG.jpg`}
 								width='1080px'
 								height='450px'
 								// layout='fill'
-								layout='responsive'
+								// layout='responsive'
 								// objectFit='contain'
 								alt='pro'
 								className='img-responsive'
-							/>
+							/> */}
 							<div className={styles.testimonialText}>
 								<p className={styles.description}>
 									Eighty one percent of our clientele have trust in Zes beauty
@@ -56,7 +56,7 @@ function TestimonialComponent() {
 								</p>
 								<p className={styles.name}>Name here</p>
 								<p className={styles.ceoFounder}>CEO Founder</p>
-								<FontAwesomeIcon icon={faQuoteLeft} />
+								{/* <FontAwesomeIcon icon={faQuoteLeft} /> */}
 							</div>
 						</div>
 					))}
