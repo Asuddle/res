@@ -29,7 +29,7 @@ const galleryArr = [
 ];
 export default function UpcomingEvents() {
 	return (
-		<section
+		<div
 			className='space-ptb bg-dark-half-md'
 			style={{ marginBottom: '60px' }}
 			// data-aos='fade-up'
@@ -42,7 +42,7 @@ export default function UpcomingEvents() {
 				/>
 				<Row className={styles.eventImage} data-aos='fade-up'>
 					{galleryArr.map((item, idx) => (
-						<Col xs={12} md={4} key={idx}>
+						<Col xs={12} sm={12} md={4} key={idx}>
 							<GalleryCard key={idx} item={item} idx={idx} />
 						</Col>
 					))}
@@ -57,6 +57,6 @@ export default function UpcomingEvents() {
 				</div>
 				{/* <button className={styles.aboutZesButton}>View All Events</button> */}
 			</div>
-		</section>
+		</div>
 	);
 }

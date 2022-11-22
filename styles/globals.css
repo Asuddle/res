@@ -110,6 +110,17 @@ a {
 	position: relative;
 	cursor: pointer;
 }
+@media screen and (max-width: 750px) {
+	.category-grid-style-01 .category-item {
+		width: 50% !important;
+	}
+}
+@media screen and (max-width: 440px) {
+	.category-grid-style-01 .category-item {
+		width: 100% !important;
+	}
+}
+
 .category-grid-style-01 .category-item:nth-child(3n + 0) {
 	border-right: none;
 }
