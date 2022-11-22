@@ -19,7 +19,7 @@ export default function GalleryCard({ idx, item }) {
 			/>
 			<div className={styles.dataWrapper}>
 				<p className={styles.eventDate}>
-					<span>01</span>
+					<span>0{idx + idx * 2 + 1}</span>
 					<br />
 					Dec
 				</p>

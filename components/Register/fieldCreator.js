@@ -1,27 +1,44 @@
 import { Col, FormGroup, Input, Label, Row } from 'reactstrap';
+import { Controller, useForm } from 'react-hook-form';
 
 import { SelectField } from './select';
 import styles from '../../styles/Register.module.scss';
 
-export default function FieldCreator({ item, col = 4 }) {
+export default function FieldCreator({ item, col = 4, control }) {
 	if (item.type === 'text') {
 		return (
 			<Col md={col}>
-				<FormGroup className={styles.formGroup}>
-					<Label className={styles.inputLabel}>{item.label}</Label>
-					<Input placeholder={item.label} className={styles.textField} />
-				</FormGroup>
+				<Controller
+					name={item.name}
+					control={control}
+					render={({ field }) => (
+						<FormGroup className={styles.formGroup}>
+							<Label className={styles.inputLabel}>{item.label}</Label>
+							<Input
+								placeholder={item.label}
+								{...field}
+								className={styles.textField}
+							/>
+						</FormGroup>
+					)}
+				/>
 			</Col>
 		);
 	} else if (item.type == 'select') {
 		return (
 			<Col md={col}>
-				<FormGroup className={styles.formGroup}>
-					<Label className={styles.inputLabel} for='exampleSelect'>
-						{item.label}
-					</Label>
-					<SelectField />
-				</FormGroup>
+				<Controller
+					name={item.name}
+					control={control}
+					render={({ field }) => (
+						<FormGroup className={styles.formGroup}>
+							<Label className={styles.inputLabel} for='exampleSelect'>
+								{item.label}
+							</Label>
+							<SelectField field={field} />
+						</FormGroup>
+					)}
+				/>
 			</Col>
 		);
 	} else if (item.type == 'inline-text') {
@@ -34,13 +51,20 @@ export default function FieldCreator({ item, col = 4 }) {
 						</Label>
 					</Col>
 					<Col md={6}>
-						<FormGroup style={{ padding: '0px' }}>
-							<Input
-								placeholder='Email'
-								className={styles.textField}
-								id='email'
-							/>
-						</FormGroup>
+						<Controller
+							name={item.name}
+							control={control}
+							render={({ field }) => (
+								<FormGroup style={{ padding: '0px' }}>
+									<Input
+										placeholder='Email'
+										{...field}
+										className={styles.textField}
+										id='email'
+									/>
+								</FormGroup>
+							)}
+						/>
 					</Col>
 				</Row>
 			</Col>

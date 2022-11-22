@@ -30,11 +30,12 @@ const defaultOptions = [
 	},
 ];
 
-export const SelectField = ({ options = defaultOptions }) => {
+export const SelectField = ({ options = defaultOptions, field }) => {
 	return (
 		<Select
 			styles={customStyles}
 			className={styles.select}
+			{...field}
 			components={{
 				IndicatorSeparator: () => null,
 			}}

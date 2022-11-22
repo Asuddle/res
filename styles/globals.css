@@ -21,6 +21,9 @@ body {
 	height: 100%;
 	/* overflow-x: hidden; */
 }
+body > div {
+	overflow-x: hidden !important;
+}
 
 a {
 	color: inherit;
