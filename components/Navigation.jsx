@@ -41,7 +41,7 @@ function Example() {
 		<>
 			<div className={styles.navContainer}>
 				<div className={styles.navigationWrapper}>
-					{/* <BurgerMenu /> */}
+					<BurgerMenu />
 					<nav className='navbar navbar-expand-lg'>
 						<Image
 							className='navbar-brand'

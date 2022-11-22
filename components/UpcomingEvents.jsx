@@ -53,7 +53,7 @@ export default function UpcomingEvents() {
 				<br />
 				<br />
 				<div class='text-center'>
-					<button className={styles.viewAllGalleryBtn}>View All Events</button>
+					<button className={styles.viewAllGalleryBtn}>View All Event</button>
 				</div>
 				{/* <button className={styles.aboutZesButton}>View All Events</button> */}
 			</div>
